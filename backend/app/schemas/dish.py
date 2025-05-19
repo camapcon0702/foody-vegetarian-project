@@ -1,5 +1,6 @@
 from pydantic import BaseModel
 from typing import Optional
+from sqlalchemy.orm import relationship
 
 class DishBase(BaseModel):
     name: str
