@@ -3,6 +3,7 @@ import json
 import time
 import os
 
+BASE_DIR = os.path.abspath(os.path.join(os.path.dirname(__file__), '..', '..', '..'))
 
 def crawling_all_restaurants():
     all_items = []
@@ -21,7 +22,7 @@ def crawling_all_restaurants():
         "sec-fetch-site": "same-origin",
         "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36 Edg/136.0.0.0",
         "x-foody-user-token": "oPjr3RPDZWIKfM8TuUDUazyWmeQpmPyK1wuUBgHjqbcAuSov7XXbox2bsDkc",
-        "x-requested-with": "XMLHttpRequest",
+        "x-requested-with": "XMLHttpRequest"
     }
 
     cookies = {
@@ -45,7 +46,7 @@ def crawling_all_restaurants():
         "__utmt_UA-33292184-1": "1",
         "_gat": "1",
         "__utmb": "257500956.6.10.1747663733",
-        "_ga_6M8E625L9H": "GS2.2.s1747663730$o3$g1$t1747665132$j60$l0$h0$d8GJz6BKrrYjeIJqDtp6m6iE9KadoalKBCA",
+        "_ga_6M8E625L9H": "GS2.2.s1747663730$o3$g1$t1747665132$j60$l0$h0$d8GJz6BKrrYjeIJqDtp6m6iE9KadoalKBCA"
     }
 
     while True:
@@ -59,7 +60,7 @@ def crawling_all_restaurants():
                 data = response.json()
                 items = data.get("searchItems", [])
                 if not items:
-                    print("✅ Không còn dữ liệu, dừng lại.")
+                    print("Không còn dữ liệu, dừng lại.")
                     break
 
                 for item in items:
@@ -69,7 +70,7 @@ def crawling_all_restaurants():
                         "Address": item.get("Address"),
                         "District": item.get("District"),
                         "AvgRating": item.get("AvgRating"),
-                        "DeliveryUrl": item.get("DeliveryUrl"),
+                        "DeliveryUrl": item.get("DeliveryUrl")
                     }
                     all_items.append(filtered)
 
@@ -83,9 +84,83 @@ def crawling_all_restaurants():
         page += 1
         time.sleep(3)
 
-    os.makedirs("data", exist_ok=True)
-    with open("data/restaurants_data.json", "w", encoding="utf-8") as f:
-        json.dump(all_items, f, ensure_ascii=False, indent=4)
+    output_path = os.path.join(BASE_DIR, 'data', 'restaurants.json')
 
-    print(f"Đã lưu {len(all_items)} nhà hàng vào 'restaurants_data.json'.")
+    with open(output_path, "w", encoding="utf-8") as f:
+        json.dump(all_items, f, ensure_ascii=False, indent=4)
+    
+
+def crawling_all_dishes():
+    input_path = os.path.join(BASE_DIR, 'data', 'restaurants.json')
+    with open(input_path, 'r', encoding='utf-8') as f:
+        restaurants = json.load(f)
+
+    all_restaurant_menus = []
+    all_ids_seen = set() 
+
+    for i, restaurant in enumerate(restaurants):
+        restaurant_id = restaurant.get('Id') 
+        if not restaurant_id:
+            continue
+
+        url = f"https://gappapi.deliverynow.vn/api/dish/get_delivery_dishes?request_id={restaurant_id}&id_type=1"
+
+        headers = {
+            "accept": "application/json, text/plain, */*",
+            "accept-language": "vi,en;q=0.9,en-GB;q=0.8,en-US;q=0.7",
+            "origin": "https://www.foody.vn",
+            "priority": "u=1, i",
+            "referer": "https://www.foody.vn/",
+            "sec-ch-ua": '"Chromium";v="136", "Microsoft Edge";v="136", "Not.A/Brand";v="99"',
+            "sec-ch-ua-mobile": "?0",
+            "sec-ch-ua-platform": '"Windows"',
+            "sec-fetch-dest": "empty",
+            "sec-fetch-mode": "cors",
+            "sec-fetch-site": "cross-site",
+            "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36 Edg/136.0.0.0",
+            "x-foody-api-version": "1",
+            "x-foody-app-type": "1004",
+            "x-foody-client-id": "",
+            "x-foody-client-language": "vi",
+            "x-foody-client-type": "1",
+            "x-foody-client-version": "1"
+        }
+
+        try:
+            response = requests.get(url, headers=headers)
+            if response.status_code == 200:
+                menu = []
+                json_data = response.json()
+                menus = json_data.get("reply", {}).get("menu_infos", [])
+                for info in menus:
+                    dishes = info.get("dishes", [])
+                    for dish in dishes:
+                        dish_id = dish.get("id")
+                        if dish_id not in all_ids_seen:
+                            photos = dish.get("photos", [])
+                            image_url = photos[0].get("value") if photos else None
+                            menu.append({
+                                "IdDish": dish_id,
+                                "name": dish.get("name"),
+                                "price": dish.get("price", {}).get("value"),
+                                "image": image_url,
+                                "description": dish.get("description")
+                            })
+                            all_ids_seen.add(dish_id) 
+                all_restaurant_menus.append({
+                    "restaurant_id": restaurant_id,
+                    "menu": menu
+                })
+            else:
+                print(f"[{i + 1}/{len(restaurants)}] Failed to fetch for restaurant ID {restaurant_id}: {response.status_code}")
+        except Exception as e:
+            print(f"[{i + 1}/{len(restaurants)}] Error: {e}")
+
+        time.sleep(0.5)
+    
+    output_path = os.path.join(BASE_DIR, 'data', 'menus.json')
+
+    with open(output_path, 'w', encoding='utf-8') as f_out:
+        json.dump(all_restaurant_menus, f_out, ensure_ascii=False, indent=2)
+
 
