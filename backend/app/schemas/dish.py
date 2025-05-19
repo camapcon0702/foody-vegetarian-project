@@ -8,7 +8,16 @@ class DishBase(BaseModel):
     price: float
     description: Optional[str] = None
     
-    
+class DishCreate(DishBase):
+    IdDish: int
+    IdRestaurant: int
+
+class DishUpdate(DishBase):
+    name: Optional[str] = None
+    image: Optional[str] = None
+    price: Optional[float] = None
+    description: Optional[str] = None
+
 class Dish(DishBase):
     IdDish: int
     IdRestaurant: int
