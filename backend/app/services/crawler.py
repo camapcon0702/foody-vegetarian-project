@@ -51,7 +51,7 @@ def crawling_all_restaurants():
 
     while True:
         url = f"https://www.foody.vn/da-nang/an-chay?ds=Restaurant&vt=row&st=1&c=56&page={page}&provinceId=219&categoryId=56&append=false"
-        print(f"📥 Đang lấy trang {page}...")
+        print(f"Đang lấy trang {page}...")
 
         response = requests.get(url, headers=headers, cookies=cookies)
 
@@ -60,7 +60,7 @@ def crawling_all_restaurants():
                 data = response.json()
                 items = data.get("searchItems", [])
                 if not items:
-                    print("✅ Không còn dữ liệu, dừng lại.")
+                    print("Không còn dữ liệu, dừng lại.")
                     break
 
                 for item in items:
@@ -75,10 +75,10 @@ def crawling_all_restaurants():
                     all_items.append(filtered)
 
             except Exception as e:
-                print(f"❌ Lỗi đọc JSON: {e}")
+                print(f"Lỗi đọc JSON: {e}")
                 break
         else:
-            print(f"❌ Lỗi HTTP: {response.status_code}")
+            print(f"Lỗi HTTP: {response.status_code}")
             break
 
         page += 1
@@ -89,9 +89,9 @@ def crawling_all_restaurants():
     with open(output_path, "w", encoding="utf-8") as f:
         json.dump(all_items, f, ensure_ascii=False, indent=4)
 
-    print(f"✅ Đã lưu {len(all_items)} nhà hàng vào 'restaurants_data.json'.")
+    print(f"Đã lưu {len(all_items)} nhà hàng vào 'restaurants_data.json'.")
 
-def get_delivery_dishes():
+def crawling_all_dishes():
 
     input_path = os.path.join(BASE_DIR, 'data', 'restaurants.json')
     with open(input_path, 'r', encoding='utf-8') as f:
@@ -161,5 +161,5 @@ def get_delivery_dishes():
     with open(output_path, 'w', encoding='utf-8') as f_out:
         json.dump(all_restaurant_menus, f_out, ensure_ascii=False, indent=2)
 
-    print(f"✅ Đã lưu menu của {len(all_restaurant_menus)} nhà hàng vào 'data/dishes_data.json'")
+    print(f"Đã lưu menu của {len(all_restaurant_menus)} nhà hàng vào 'data/dishes_data.json'")
 
