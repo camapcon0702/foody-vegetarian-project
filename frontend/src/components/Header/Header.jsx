@@ -1,5 +1,5 @@
 import React from "react";
-import "./Header.css"; // Tạo file này để custom CSS cho Header
+import "./Header.css";
 
 function Header() {
   return (

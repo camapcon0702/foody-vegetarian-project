@@ -1,0 +1,32 @@
+.listdishcard-root {
+  width: 100%;
+  max-width: 1050px;
+  margin: 28px auto;
+  background: #fff;
+  border-radius: 9px;
+  box-shadow: 0 2px 12px rgba(80,80,80,0.06);
+  padding: 8px 14px 18px 14px;
+
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px 24px; 
+}
+
+.listdishcard-empty {
+  text-align: center;
+  color: #999;
+  margin: 28px 0 40px 0;
+  font-size: 1.15rem;
+  font-style: italic;
+}
+
+
+.listdishcard-root > * {
+  flex: 0 0 calc(50% - 12px); 
+  box-sizing: border-box;
+}
+
+.title-list-dish{
+  font-size: 20px;
+  text-align: center;
+}
