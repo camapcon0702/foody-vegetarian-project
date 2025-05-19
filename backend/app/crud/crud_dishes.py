@@ -16,7 +16,7 @@ def create_dish(db: Session, dish: DishCreate):
     return db_dish
 
 def update_dish(db: Session, dish_id: int, dish_update: DishCreate):
-    db_dish = db.query(Dish).filter(Dish.id_dish == dish_id).first()
+    db_dish = db.query(Dish).filter(Dish.IdDish  == dish_id).first()
     if not db_dish:
         return None
     for key, value in dish_update.dict(exclude_unset=True).items():
@@ -26,7 +26,7 @@ def update_dish(db: Session, dish_id: int, dish_update: DishCreate):
     return db_dish
 
 def delete_dish(db: Session, dish_id: int):
-    db_dish = db.query(Dish).filter(Dish.id_dish == dish_id).first()
+    db_dish = db.query(Dish).filter(Dish.IdDish  == dish_id).first()
     if not db_dish:
         return None
     db.delete(db_dish)
