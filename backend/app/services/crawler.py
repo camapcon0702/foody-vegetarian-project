@@ -90,6 +90,7 @@ def crawling_all_restaurants():
         json.dump(all_items, f, ensure_ascii=False, indent=4)
 
     print(f"Đã lưu {len(all_items)} nhà hàng vào 'restaurants_data.json'.")
+    
 
 def crawling_all_dishes():
     input_path = os.path.join(BASE_DIR, 'data', 'restaurants.json')

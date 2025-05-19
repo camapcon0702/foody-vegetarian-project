@@ -1,19 +1,17 @@
 from pydantic import BaseModel
 from typing import Optional
+from sqlalchemy.orm import relationship
 
 class DishBase(BaseModel):
     name: str
     image: str
     price: float
-    description: Optional[str]
-
-class DishCreate(DishBase):
-    IdDish: int
-    IdRestaurant: int
-
+    description: Optional[str] = None
+    
+    
 class Dish(DishBase):
     IdDish: int
     IdRestaurant: int
 
     class Config:
-        orm_mode = True
+        from_attributes = True

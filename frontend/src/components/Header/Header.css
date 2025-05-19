@@ -1,0 +1,123 @@
+.header {
+  position: fixed;         
+  top: 0;                  
+  left: 0;
+  width: 100vw;           
+  z-index: 1000;          
+  background: #fff;
+
+  height: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid #eee;
+  padding: 0 140px;
+  font-size: 1.5rem;
+  box-sizing: border-box;
+}
+
+
+.header__left {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.header__logo {
+  height: 36px;
+  margin-right: 18px;
+}
+
+.header__city, .header__category {
+  padding: 5px 12px;
+  background: #fafbfc;
+  border: 1px solid #e5e5e5;
+  border-radius: 5px;
+  margin-right: 6px;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  font-size: 1.4rem;
+}
+
+.header__dropdown {
+  margin-left: 6px;
+  font-size: 1.1rem;
+}
+
+.header__search {
+  padding: 6px 12px;
+  border: 1px solid #e5e5e5;
+  border-radius: 5px;
+  min-width: 300px;
+  font-size: 1.4rem;
+  margin-right: 6px;
+}
+
+
+.header__searchBtn {
+  background: #f4f4f4;
+  border: 1px solid #e5e5e5;
+  border-radius: 5px;
+  padding: 6px 12px;
+  margin-right: 4px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
+
+
+.header__searchBtn:hover {
+  background: #eee;
+}
+
+.header__icon {
+  font-size: 1.6rem;
+}
+
+.header__right {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.header__menu, .header__apps, .header__notify, .header__plus {
+  background: #f4f4f4;
+  border: 1px solid #e5e5e5;
+  border-radius: 5px;
+  padding: 6px 12px;
+  cursor: pointer;
+  font-size: 1.5rem;
+  margin-right: 4px;
+}
+
+.header__apps {
+  font-size: 1.4rem;
+  font-weight: 500;
+}
+
+.header__user {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background: #eee;
+  margin-right: 4px;
+  object-fit: cover;
+}
+
+.header__notify,
+.header__plus {
+  width: 34px;
+  height: 34px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.header__flag {
+  width: 32px;
+  height: 22px;
+  border-radius: 4px;
+  border: 1px solid #e5e5e5;
+  object-fit: cover;
+}
