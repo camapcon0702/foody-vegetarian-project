@@ -2,14 +2,14 @@ import React from "react";
 import './ListRestaurant.css';
 import RestaurantCard from "../RestaurantCard/RestaurantCard";
 
-function ListRestaurant({ restaurants }) {
+function ListRestaurant({ nameTitle,  restaurants }) {
   if (!restaurants || restaurants.length === 0) {
     return <div className="listrestaurant-empty">Không có nhà hàng nào để hiển thị.</div>;
   }
 
   return (
     <>
-        <div className="title-list">Danh sách các quán ăn</div>
+        <div className="title-list">{nameTitle}</div>
     
                  <div className="listrestaurant-wrapper">
                     {restaurants.map((item) => (

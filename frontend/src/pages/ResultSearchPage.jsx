@@ -1,12 +1,11 @@
 import React from 'react'
-import Header from '../components/Header/Header'
-import BannerCarousel from '../components/BannerCarousel/BannerCarousel'
-import Footer from '../components/Footer/Footer'
-import ListRestaurant from '../components/ListRestaurant/ListRestaurant'
 
-export default function HomePage() {
-    
-  const fakeRestaurants = [
+import Header from '../components/Header/Header'
+import Footer from '../components/Footer/Footer'
+import ListRestaurant from '../components/ListRestaurant/ListRestaurant' 
+import './ResultSearchPage.css'
+
+ const fakeRestaurants = [
     {
       IdRestaurant: 1,
       name: "Quán Chay Ngon",
@@ -63,12 +62,16 @@ export default function HomePage() {
     }
   ];
 
+export default function ResultSearchPage() {
   return (
     <>
-      <Header/>
-      <BannerCarousel/>
-      <ListRestaurant nameTitle={"Danh sách các quán ăn"} restaurants={fakeRestaurants}/> 
-      <Footer/>
+        <Header/>
+        <div className='response-data'></div>
+            <ListRestaurant nameTitle={"Kết quả tìm kiếm"} restaurants={fakeRestaurants}/>
+        
+
+
+      
     </>
   )
 }
