@@ -92,12 +92,12 @@ def crawling_all_restaurants():
     print(f"Đã lưu {len(all_items)} nhà hàng vào 'restaurants_data.json'.")
 
 def crawling_all_dishes():
-
     input_path = os.path.join(BASE_DIR, 'data', 'restaurants.json')
     with open(input_path, 'r', encoding='utf-8') as f:
         restaurants = json.load(f)
 
     all_restaurant_menus = []
+    all_ids_seen = set() 
 
     for i, restaurant in enumerate(restaurants):
         restaurant_id = restaurant.get('Id') 
@@ -133,18 +133,22 @@ def crawling_all_dishes():
                 menu = []
                 json_data = response.json()
                 menus = json_data.get("reply", {}).get("menu_infos", [])
-                for j, info in enumerate(menus):
+                for info in menus:
                     dishes = info.get("dishes", [])
-                    for k,dish in enumerate(dishes):
-                        photos = dish.get("photos", [])
-                        menu.append({
-                            "IdDish": dish.get("id"),
-                            "name": dish.get("name"),
-                            "price": dish.get("price", {}).get("value"),
-                            "image": photos[0].get("value"),
-                            "description": dish.get("description")
-                        })
-                print(f"[{i + 1}/{len(restaurants)}] Got {len(menu)} dishes from restaurant ID {restaurant_id}")
+                    for dish in dishes:
+                        dish_id = dish.get("id")
+                        if dish_id not in all_ids_seen:
+                            photos = dish.get("photos", [])
+                            image_url = photos[0].get("value") if photos else None
+                            menu.append({
+                                "IdDish": dish_id,
+                                "name": dish.get("name"),
+                                "price": dish.get("price", {}).get("value"),
+                                "image": image_url,
+                                "description": dish.get("description")
+                            })
+                            all_ids_seen.add(dish_id) 
+                print(f"[{i + 1}/{len(restaurants)}] Got {len(menu)} unique dishes from restaurant ID {restaurant_id}")
                 all_restaurant_menus.append({
                     "restaurant_id": restaurant_id,
                     "menu": menu
@@ -161,5 +165,5 @@ def crawling_all_dishes():
     with open(output_path, 'w', encoding='utf-8') as f_out:
         json.dump(all_restaurant_menus, f_out, ensure_ascii=False, indent=2)
 
-    print(f"Đã lưu menu của {len(all_restaurant_menus)} nhà hàng vào 'data/dishes_data.json'")
+    print(f"Đã lưu menu của {len(all_restaurant_menus)} nhà hàng vào 'data/menus.json'")
 
