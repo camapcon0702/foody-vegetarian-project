@@ -88,8 +88,6 @@ def crawling_all_restaurants():
 
     with open(output_path, "w", encoding="utf-8") as f:
         json.dump(all_items, f, ensure_ascii=False, indent=4)
-
-    print(f"Đã lưu {len(all_items)} nhà hàng vào 'restaurants_data.json'.")
     
 
 def crawling_all_dishes():
@@ -149,7 +147,6 @@ def crawling_all_dishes():
                                 "description": dish.get("description")
                             })
                             all_ids_seen.add(dish_id) 
-                print(f"[{i + 1}/{len(restaurants)}] Got {len(menu)} unique dishes from restaurant ID {restaurant_id}")
                 all_restaurant_menus.append({
                     "restaurant_id": restaurant_id,
                     "menu": menu
@@ -166,5 +163,4 @@ def crawling_all_dishes():
     with open(output_path, 'w', encoding='utf-8') as f_out:
         json.dump(all_restaurant_menus, f_out, ensure_ascii=False, indent=2)
 
-    print(f"Đã lưu menu của {len(all_restaurant_menus)} nhà hàng vào 'data/menus.json'")
 
