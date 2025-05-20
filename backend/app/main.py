@@ -1,3 +1,4 @@
+from app.services.scheduler import start_scheduler
 from fastapi import FastAPI
 from app.api.v1.api import api_router
 from fastapi.middleware.cors import CORSMiddleware
@@ -15,4 +16,5 @@ app.add_middleware(
 
 # Gắn router chính
 app.include_router(api_router, prefix="/api/v1")
+start_scheduler()
 
