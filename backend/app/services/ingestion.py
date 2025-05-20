@@ -32,7 +32,7 @@ async def insert_restaurants_from_json():
                 session.add(restaurant)
         await session.commit()        
         
-async def insert_dishes():
+async def insert_dishes_from_json():
     BASE_DIR = os.path.abspath(os.path.join(os.path.dirname(__file__), '..', '..', '..'))
     path = os.path.join(BASE_DIR, 'data', 'menus.json')
     

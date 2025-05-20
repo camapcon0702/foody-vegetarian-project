@@ -25,3 +25,15 @@ async def add_restaurant(restaurant: RestaurantCreate, db: AsyncSession = Depend
 @router.get("/search-by-dish", response_model=list[RestaurantOut])
 async def search_restaurants_by_dish(name: str = Query(..., min_length=1), db: AsyncSession = Depends(get_async_db)):
     return await crud_restaurants.find_restaurants_by_dish(db, name)
+from fastapi import HTTPException
+
+
+@router.get("/{restaurant_id}", response_model=RestaurantOut)
+async def get_restaurant_by_id(
+    restaurant_id: int,
+    db: AsyncSession = Depends(get_async_db)
+):
+    restaurant = await crud_restaurants.get_restaurant_by_id(db, restaurant_id)
+    if restaurant is None:
+        raise HTTPException(status_code=404, detail="Restaurant not found")
+    return restaurant
