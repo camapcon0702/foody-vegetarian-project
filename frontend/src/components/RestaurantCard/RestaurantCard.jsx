@@ -1,7 +1,9 @@
 import React from "react";
+import { useNavigate } from "react-router-dom"; // Thêm dòng này
 import "./RestaurantCard.css";
 
 function RestaurantCard({ 
+  id,  // hoặc IdRestaurant (tùy bạn đặt tên gì)
   name, 
   address, 
   district, 
@@ -9,6 +11,12 @@ function RestaurantCard({
   delivery_url, 
   image 
 }) {
+  const navigate = useNavigate();
+
+  const handleNameClick = () => {
+    navigate(`/restaurant/${id}`);
+  };
+
   return (
     <div className="restaurant-card">
       <div className="restaurant-image-wrapper">
@@ -30,7 +38,9 @@ function RestaurantCard({
         </a>
       </div>
       <div className="restaurant-info">
-        <h3 className="restaurant-name">{name}</h3>
+        <span className="restaurant-dish" style={{ cursor: 'pointer' }} onClick={handleNameClick}>
+          <h3 className="restaurant-name">{name}</h3>
+        </span>
         <div className="restaurant-rating">
           <span>⭐</span> {average_rating}
         </div>
