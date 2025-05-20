@@ -4,6 +4,7 @@ import os
 from app.core.database import AsyncSessionLocal
 from app.models.restaurant import Restaurant
 from app.models.dish import Dish
+from sqlalchemy import select
 from decimal import Decimal, ROUND_HALF_UP
 from tqdm import tqdm
 from sqlalchemy import text
@@ -21,6 +22,12 @@ async def insert_restaurants_from_json():
                     avg_rating = float(item['AvgRating'])
                 except (ValueError, TypeError, KeyError):
                     avg_rating = 0.0
+                stmt = select(Restaurant.IdRestaurant).where(Restaurant.IdRestaurant == item['Id'])
+                result = await session.execute(stmt)
+                exists_id = result.scalar()
+
+                if exists_id:
+                    continue
                 restaurant = Restaurant(
                     IdRestaurant=item['Id'],
                     name=item['Name'],
@@ -32,7 +39,7 @@ async def insert_restaurants_from_json():
                 session.add(restaurant)
         await session.commit()        
         
-async def insert_dishes():
+async def insert_dishes_from_json():
     BASE_DIR = os.path.abspath(os.path.join(os.path.dirname(__file__), '..', '..', '..'))
     path = os.path.join(BASE_DIR, 'data', 'menus.json')
     

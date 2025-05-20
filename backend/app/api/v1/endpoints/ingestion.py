@@ -1,4 +1,4 @@
-from app.services.ingestion import insert_restaurants_from_json, insert_dishes
+from app.services.ingestion import insert_restaurants_from_json, insert_dishes_from_json
 from fastapi import APIRouter, HTTPException
 
 
@@ -15,7 +15,7 @@ async def ingestion_restaurants():
 @router.post("/dishes")
 async def insert_dishes():
     try:
-        await insert_dishes()
+        await insert_dishes_from_json()
         return {"message": "Success"}
     except Exception as e:
         raise HTTPException(status_code=500, detail=str(e))
