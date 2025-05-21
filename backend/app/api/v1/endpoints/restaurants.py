@@ -25,3 +25,7 @@ async def add_restaurant(restaurant: RestaurantCreate, db: AsyncSession = Depend
 @router.get("/search-by-dish", response_model=list[RestaurantOut])
 async def search_restaurants_by_dish(name: str = Query(..., min_length=1), db: AsyncSession = Depends(get_async_db)):
     return await crud_restaurants.find_restaurants_by_dish(db, name)
+
+@router.get("/find-by-id/{id}", response_model=RestaurantOut)
+async def find_restaurant_by_id(id: int, db: AsyncSession = Depends(get_async_db)):
+    return await crud_restaurants.find_restaurant_by_id(db, id)

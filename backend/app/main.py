@@ -2,7 +2,7 @@ from fastapi import FastAPI
 from app.api.v1.api import api_router
 from fastapi.middleware.cors import CORSMiddleware
 
-app = FastAPI(title="Foody Vegetarian API")
+app = FastAPI(title="Foody Vegetarian API", root_path="/api")
 
 # Cấu hình CORS (cho phép frontend gọi API)
 app.add_middleware(
@@ -14,5 +14,5 @@ app.add_middleware(
 )
 
 # Gắn router chính
-app.include_router(api_router, prefix="/api/v1")
+app.include_router(api_router, prefix="/v1")
 

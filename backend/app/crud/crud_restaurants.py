@@ -35,3 +35,8 @@ async def find_restaurants_by_dish(db: AsyncSession, dish_name: str):
         select(Restaurant).filter(Restaurant.IdRestaurant.in_(restaurant_ids))
     )
     return result_restaurants.scalars().all()
+
+async def find_restaurant_by_id(db: AsyncSession, id: int):
+    result = await db.execute(select(Restaurant).where(Restaurant.IdRestaurant == id))
+    restaurant = result.scalar_one_or_none()
+    return restaurant

@@ -12,6 +12,10 @@ class DishBase(BaseModel):
 class Dish(DishBase):
     IdDish: int
     IdRestaurant: int
+    
+class DishCreate(DishBase):
+    IdDish: int
+    IdRestaurant: int
 
     class Config:
         from_attributes = True
