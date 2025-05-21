@@ -7,6 +7,7 @@ BASE_DIR = os.path.abspath(os.path.join(os.path.dirname(__file__), '..', '..', '
 
 def crawling_all_restaurants():
     all_items = []
+    seen_ids = set()
     page = 1
 
     headers = {
@@ -64,15 +65,27 @@ def crawling_all_restaurants():
                     break
 
                 for item in items:
-                    filtered = {
-                        "Id": item.get("Id"),
-                        "Name": item.get("Name"),
-                        "Address": item.get("Address"),
-                        "District": item.get("District"),
-                        "AvgRating": item.get("AvgRating"),
-                        "DeliveryUrl": item.get("DeliveryUrl")
-                    }
-                    all_items.append(filtered)
+                    # filtered = {
+                    #     "Id": item.get("Id"),
+                    #     "Name": item.get("Name"),
+                    #     "Address": item.get("Address"),
+                    #     "District": item.get("District"),
+                    #     "AvgRating": item.get("AvgRating"),
+                    #     "DeliveryUrl": item.get("DeliveryUrl")
+                    # }
+                    # all_items.append(filtered)
+                    Id = item.get("Id")
+                    if Id not in seen_ids:
+                        filtered = {
+                            "Id": Id,
+                            "Name": item.get("Name"),
+                            "Address": item.get("Address"),
+                            "District": item.get("District"),
+                            "AvgRating": item.get("AvgRating"),
+                            "DeliveryUrl": item.get("DeliveryUrl")
+                        }
+                        all_items.append(filtered)
+                        seen_ids.add(Id)
 
             except Exception as e:
                 print(f"Lỗi đọc JSON: {e}")
@@ -88,8 +101,6 @@ def crawling_all_restaurants():
 
     with open(output_path, "w", encoding="utf-8") as f:
         json.dump(all_items, f, ensure_ascii=False, indent=4)
-
-    print(f"Đã lưu {len(all_items)} nhà hàng vào 'restaurants_data.json'.")
     
 
 def crawling_all_dishes():
@@ -149,7 +160,6 @@ def crawling_all_dishes():
                                 "description": dish.get("description")
                             })
                             all_ids_seen.add(dish_id) 
-                print(f"[{i + 1}/{len(restaurants)}] Got {len(menu)} unique dishes from restaurant ID {restaurant_id}")
                 all_restaurant_menus.append({
                     "restaurant_id": restaurant_id,
                     "menu": menu
@@ -166,5 +176,4 @@ def crawling_all_dishes():
     with open(output_path, 'w', encoding='utf-8') as f_out:
         json.dump(all_restaurant_menus, f_out, ensure_ascii=False, indent=2)
 
-    print(f"Đã lưu menu của {len(all_restaurant_menus)} nhà hàng vào 'data/menus.json'")
 

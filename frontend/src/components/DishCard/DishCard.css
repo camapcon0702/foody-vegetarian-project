@@ -1,0 +1,35 @@
+.dishcard-root {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+  padding: 8px 0;
+  min-height: 62px;
+  border-bottom: 1px solid #efefef;
+}
+
+.dishcard-img {
+  width: 48px;
+  height: 48px;
+  object-fit: cover;
+  border-radius: 7px;
+  background: #faf9f8;
+  flex-shrink: 0;
+  border: 1px solid #eee;
+}
+
+.dishcard-name {
+  flex: 1;
+  font-size: 1.4rem;
+  font-weight: 600;
+  color: #3c3c3c;
+  line-height: 1.3;
+}
+
+.dishcard-price {
+  font-size: 1.4rem;
+  font-weight: 600;
+  color: #186ba6;
+  min-width: 80px;
+  text-align: right;
+  letter-spacing: 0.2px;
+}

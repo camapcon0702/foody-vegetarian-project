@@ -1,6 +1,8 @@
-from sqlalchemy.orm import Session
+from sqlalchemy.ext.asyncio import AsyncSession
+from sqlalchemy import select
 from app.models.dish import Dish
 
-def get_dishes_by_restaurant(db: Session, restaurant_id: int):
-    return db.query(Dish).filter(Dish.IdRestaurant == restaurant_id).all()
-
+async def get_dishes_by_restaurant(db: AsyncSession, restaurant_id: int):
+    result = await db.execute(select(Dish).filter(Dish.IdRestaurant == restaurant_id))
+    print(f"Received dish data: {result}")
+    return result.scalars().all()

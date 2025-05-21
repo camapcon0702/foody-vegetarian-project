@@ -504,28 +504,12 @@
         "DeliveryUrl": "https://shopeefood.vn/da-nang/soul-savor-coffee-vegetarian-kitchen"
     },
     {
-        "Id": 1004418,
-        "Name": "Quán Chay Hạnh Nhân",
-        "Address": "224 Núi Thành",
-        "District": "Quận Hải Châu",
-        "AvgRating": "_._",
-        "DeliveryUrl": ""
-    },
-    {
         "Id": 1027667,
         "Name": "Quán Chay Đức Hiếu",
         "Address": "K138/H23/17 Hoàng Văn Thái",
         "District": "Quận Liên Chiểu",
         "AvgRating": "_._",
         "DeliveryUrl": "https://shopeefood.vn/da-nang/quan-chay-duc-hieu"
-    },
-    {
-        "Id": 1128888,
-        "Name": "Quán Chay Phúc Viên - 428 Nguyễn Phước Nguyên",
-        "Address": "428 Nguyễn Phước Nguyên, P. An Khê",
-        "District": "Quận Thanh Khê",
-        "AvgRating": "_._",
-        "DeliveryUrl": "https://shopeefood.vn/da-nang/quan-chay-phuc-vien-428-nguyen-phuoc-nguyen"
     },
     {
         "Id": 1000029274,
@@ -536,44 +520,44 @@
         "DeliveryUrl": "https://shopeefood.vn/da-nang/jane-s-kitchen-house-banh-mi-burger-ha-huy-tap.f85evh"
     },
     {
-        "Id": 1064033,
-        "Name": "Quán Chay Nhân Nghĩa",
-        "Address": "160 Trần Đại Nghĩa, P. Hòa Hải",
-        "District": "Quận Ngũ Hành Sơn",
-        "AvgRating": "_._",
-        "DeliveryUrl": "https://shopeefood.vn/da-nang/quan-chay-nhan-nghia"
-    },
-    {
-        "Id": 1060394,
-        "Name": "Quán Chay An Nhiên",
-        "Address": "75 Dương Trí Trạch, P. An Hải Bắc",
-        "District": "Quận Sơn Trà",
-        "AvgRating": "_._",
-        "DeliveryUrl": "https://shopeefood.vn/da-nang/quan-chay-an-nhien"
-    },
-    {
-        "Id": 1073276,
-        "Name": "Chay Tâm Phúc",
-        "Address": "132A Quang Trung, P. Thạch Thang",
+        "Id": 1004418,
+        "Name": "Quán Chay Hạnh Nhân",
+        "Address": "224 Núi Thành",
         "District": "Quận Hải Châu",
         "AvgRating": "_._",
-        "DeliveryUrl": "https://shopeefood.vn/da-nang/chay-tam-phuc"
+        "DeliveryUrl": ""
     },
     {
-        "Id": 1071211,
-        "Name": "Phiêu Quán - Mẹt Gà Uyên Ương & Mẹt Nướng Tổng Hợp",
-        "Address": "100 Bùi Tá Hán, P. Khuê Mỹ",
-        "District": "Quận Ngũ Hành Sơn",
-        "AvgRating": "_._",
-        "DeliveryUrl": "https://shopeefood.vn/da-nang/phieu-quan-met-ga-uyen-uong-met-nuong-tong-hop"
-    },
-    {
-        "Id": 1070421,
-        "Name": "Ẩm Thực Chay Bình Minh - Lê Duẩn",
-        "Address": "350/14 Lê Duẩn",
+        "Id": 1045900,
+        "Name": "Bánh Mì Chay Đà Nẵng",
+        "Address": "K05/27 Tô Ngọc Vân, P. Vĩnh Trung",
         "District": "Quận Thanh Khê",
         "AvgRating": "_._",
-        "DeliveryUrl": "https://shopeefood.vn/da-nang/am-thuc-chay-binh-minh-le-duan"
+        "DeliveryUrl": "https://shopeefood.vn/da-nang/banh-mi-chay-da-nang"
+    },
+    {
+        "Id": 1123013,
+        "Name": "Gạo House - Thịt Heo Ngâm Mắm & Bánh Tráng Cuốn Thịt Heo",
+        "Address": "127 Lê Thạch, P. Hoà An",
+        "District": "Quận Cẩm Lệ",
+        "AvgRating": "_._",
+        "DeliveryUrl": "https://shopeefood.vn/da-nang/gao-house-thit-heo-ngam-mam-banh-trang-cuon-thit-heo"
+    },
+    {
+        "Id": 1118996,
+        "Name": "Gác Tịnh - Cafe & Ẩm Thực Chay",
+        "Address": "38 - 40 Xô Viết Nghệ Tĩnh, P. Hòa Cường Nam",
+        "District": "Quận Hải Châu",
+        "AvgRating": "_._",
+        "DeliveryUrl": "https://shopeefood.vn/da-nang/gac-tinh-cafe-am-thuc-chay"
+    },
+    {
+        "Id": 1084200,
+        "Name": "Tiệm Chay Chickpea Eatery - Trương Định",
+        "Address": "73/12 Trương Định, P.Mân Thái",
+        "District": "Quận Sơn Trà",
+        "AvgRating": "_._",
+        "DeliveryUrl": "https://shopeefood.vn/da-nang/tiem-chay-chickpea-eatery-truong-dinh"
     },
     {
         "Id": 1088016,
@@ -584,252 +568,28 @@
         "DeliveryUrl": "https://shopeefood.vn/da-nang/dong-uyen-mon-chay-to-ngoc-van"
     },
     {
-        "Id": 1005014,
-        "Name": "Quán Chay Hà - Đoàn Thị Điểm",
-        "Address": "16 Đoàn Thị Điểm, P. Hải Châu 2",
+        "Id": 1073276,
+        "Name": "Chay Tâm Phúc",
+        "Address": "132A Quang Trung, P. Thạch Thang",
         "District": "Quận Hải Châu",
         "AvgRating": "_._",
-        "DeliveryUrl": "https://shopeefood.vn/da-nang/quan-chay-ha-doan-thi-diem"
+        "DeliveryUrl": "https://shopeefood.vn/da-nang/chay-tam-phuc"
     },
     {
-        "Id": 1061585,
-        "Name": "Bánh Mì Chay An Yên",
-        "Address": "98 Hoàng Văn Thụ, P. Phước Ninh",
-        "District": "Quận Hải Châu",
-        "AvgRating": "_._",
-        "DeliveryUrl": "https://shopeefood.vn/da-nang/banh-mi-chay-an-yen"
-    },
-    {
-        "Id": 1051601,
-        "Name": "Thiện Quán - Đặc Sản Chay",
-        "Address": "K356/49 Hoàng Diệu, P. Bình Thuận",
-        "District": "Quận Hải Châu",
-        "AvgRating": "_._",
-        "DeliveryUrl": "https://shopeefood.vn/da-nang/thien-quan-dac-san-chay"
-    },
-    {
-        "Id": 1060014,
-        "Name": "Bánh Mì Chay Ngọc Tứ - Lê Độ",
-        "Address": "117 Lê Độ, P. Chính Gián",
-        "District": "Quận Thanh Khê",
-        "AvgRating": "_._",
-        "DeliveryUrl": "https://shopeefood.vn/da-nang/banh-mi-chay-ngoc-tu-le-do"
-    },
-    {
-        "Id": 1061285,
-        "Name": "Quán Chay Trường Kỳ",
-        "Address": "129 Phan Đăng Lưu, P. Hòa Cường Nam",
-        "District": "Quận Hải Châu",
-        "AvgRating": "_._",
-        "DeliveryUrl": "https://shopeefood.vn/da-nang/quan-chay-truong-ky"
-    },
-    {
-        "Id": 1144539,
-        "Name": "Quán Chay Tâm Thiện Phước - Trần Cao Vân",
-        "Address": "697A Trần Cao Vân, P. Thanh Khê Đông",
-        "District": "Quận Thanh Khê",
-        "AvgRating": "_._",
-        "DeliveryUrl": "https://shopeefood.vn/da-nang/quan-chay-tam-thien-phuoc-tran-cao-van"
-    },
-    {
-        "Id": 944649,
-        "Name": "Quán Chay Hương Sen",
-        "Address": "158 Phạm Tứ, P. Khuê Trung",
+        "Id": 1043282,
+        "Name": "Bếp Xanh Healthy Food",
+        "Address": "80 Đoàn Hữu Trưng, P. Hòa An",
         "District": "Quận Cẩm Lệ",
         "AvgRating": "_._",
-        "DeliveryUrl": "https://shopeefood.vn/da-nang/quan-chay-huong-sen"
+        "DeliveryUrl": "https://shopeefood.vn/da-nang/bep-xanh-healthy-food"
     },
     {
-        "Id": 963223,
-        "Name": "Quán Chay Bồ Đề Tâm",
-        "Address": "117 Ung Văn Khiêm, P. Mỹ An",
-        "District": "Quận Ngũ Hành Sơn",
-        "AvgRating": "_._",
-        "DeliveryUrl": "https://shopeefood.vn/da-nang/quan-chay-bo-de-tam"
-    },
-    {
-        "Id": 1000081654,
-        "Name": "Grazie's Kitchen - Vegan Cafe & Cake Quán Chay - An Thượng 3",
-        "Address": "12 An Thượng 3",
-        "District": "Quận Ngũ Hành Sơn",
-        "AvgRating": "_._",
-        "DeliveryUrl": "https://shopeefood.vn/da-nang/grazie-s-kitchen-vegan-cafe-cake-quan-chay-an-thuong-3.cmfoa1"
-    },
-    {
-        "Id": 1000074926,
-        "Name": "NGŨ CỐC NHƯ THẢO - Dinh Dưỡng - 301 NGUYỄN HOÀNG",
-        "Address": "301 Nguyễn Hoàng, P. Bình Hiên",
-        "District": "Quận Hải Châu",
-        "AvgRating": "_._",
-        "DeliveryUrl": "https://shopeefood.vn/da-nang/ngu-coc-nhu-thao-dinh-duong-301-nguyen-hoang"
-    },
-    {
-        "Id": 1000075508,
-        "Name": "Bếp Thu Veggie - Mít Trộn Rong Biển - Hoa Lư",
-        "Address": "100 Hoa Lư, P. Nại Hiên Đông",
-        "District": "Quận Sơn Trà",
-        "AvgRating": "_._",
-        "DeliveryUrl": "https://shopeefood.vn/da-nang/bep-thu-veggie-mit-tron-rong-bien-hoa-lu"
-    },
-    {
-        "Id": 1226388,
-        "Name": "Quán Chay Ưu Đàm - Mỳ Quảng, Bánh Xèo & Bún Mắm Đậu",
-        "Address": "576 Trưng Nữ Vương, P. Hòa Thuận Đông",
-        "District": "Quận Hải Châu",
-        "AvgRating": "_._",
-        "DeliveryUrl": "https://shopeefood.vn/da-nang/quan-chay-uu-dam-my-quang-banh-xeo-bun-mam-dau"
-    },
-    {
-        "Id": 1223586,
-        "Name": "Harmony Vegetarian - Chay - Lê Hồng Phong",
-        "Address": "56D Lê Hồng Phong, P. Phước Ninh",
-        "District": "Quận Hải Châu",
-        "AvgRating": "_._",
-        "DeliveryUrl": "https://shopeefood.vn/da-nang/harmony-vegetarian-chay-le-hong-phong"
-    },
-    {
-        "Id": 1223233,
-        "Name": "Chay Viên Nhã - 25 Bàu Mạc 6",
-        "Address": "25 Bàu Mạc 6, P. Hoà Khánh Bắc",
-        "District": "Quận Liên Chiểu",
-        "AvgRating": "_._",
-        "DeliveryUrl": "https://shopeefood.vn/da-nang/chay-vien-nha-25-bau-mac-6"
-    },
-    {
-        "Id": 1204702,
-        "Name": "Cơm Chay Diệu Như - 37 Mẹ Suốt",
-        "Address": "37 Mẹ Suốt, P.Hòa Khánh Nam",
-        "District": "Quận Liên Chiểu",
-        "AvgRating": "_._",
-        "DeliveryUrl": "https://shopeefood.vn/da-nang/com-chay-dieu-nhu-37-me-suot"
-    },
-    {
-        "Id": 1220744,
-        "Name": "Há Cảo - A Mập - 19/11 Hoàng Hoa Thám",
-        "Address": "19/11 Hoàng Hoa Thám, P. Tân Chính",
+        "Id": 1043284,
+        "Name": "Thực Phẩm Chay Viên Quang",
+        "Address": "566 Trần Cao Vân, P. Xuân Hà",
         "District": "Quận Thanh Khê",
         "AvgRating": "_._",
-        "DeliveryUrl": "https://shopeefood.vn/da-nang/ha-cao-a-map-19-11-hoang-hoa-tham"
-    },
-    {
-        "Id": 1220225,
-        "Name": "Tiệm Chay Làng Hữu Cơ Bốn Mùa - Châu Thượng Văn",
-        "Address": "57 Châu Thượng Văn, P. Hoà Cường Bắc",
-        "District": "Quận Hải Châu",
-        "AvgRating": "_._",
-        "DeliveryUrl": "https://shopeefood.vn/da-nang/tiem-chay-lang-huu-co-bon-mua-chau-thuong-van"
-    },
-    {
-        "Id": 1224896,
-        "Name": "Quán Chay 269/25 - Ông Ích Khiêm",
-        "Address": "K269/25 Ông Ích Khiêm, P. Hải Châu 2",
-        "District": "Quận Hải Châu",
-        "AvgRating": "_._",
-        "DeliveryUrl": "https://shopeefood.vn/da-nang/quan-chay-269-25-ong-ich-khiem"
-    },
-    {
-        "Id": 1181647,
-        "Name": "Bánh Mì Chay Từ Tâm - Tôn Đản",
-        "Address": "K139 Tôn Đản, P. Hoà An",
-        "District": "Quận Cẩm Lệ",
-        "AvgRating": "_._",
-        "DeliveryUrl": "https://shopeefood.vn/da-nang/banh-mi-chay-tu-tam-ton-dan"
-    },
-    {
-        "Id": 1176594,
-        "Name": "Nhà Chay Shala - Shala Vegan House - Nguyễn Du",
-        "Address": "K87/16 Nguyễn Du, P. Thạch Thang",
-        "District": "Quận Hải Châu",
-        "AvgRating": "_._",
-        "DeliveryUrl": "https://shopeefood.vn/da-nang/nha-chay-shala-shala-vegan-house-nguyen-du"
-    },
-    {
-        "Id": 1177059,
-        "Name": "Quán Chay Tâm An - 105 Phạm Thế Hiển",
-        "Address": "105 Phạm Thế Hiển, P. Khuê Trung",
-        "District": "Quận Cẩm Lệ",
-        "AvgRating": "_._",
-        "DeliveryUrl": "https://shopeefood.vn/da-nang/quan-chay-tam-an-khai-tam-cu-105-pham-the-hien"
-    },
-    {
-        "Id": 1210268,
-        "Name": "Tuệ Tâm Vegan - 52 Đoàn Nhữ Hài",
-        "Address": "52 Đoàn Nhữ Hài, P. Hòa Khê",
-        "District": "Quận Thanh Khê",
-        "AvgRating": "_._",
-        "DeliveryUrl": "https://shopeefood.vn/da-nang/tue-tam-vegan-52-doan-nhu-hai"
-    },
-    {
-        "Id": 1000077252,
-        "Name": "Box & Boog - Nước Ép Nguyên Chất, Trái Cây Cắt & Ăn Vặt",
-        "Address": "211/2 Nguyễn Văn Thoại, An Hải, P. An Hải Đông",
-        "District": "Quận Ngũ Hành Sơn",
-        "AvgRating": "_._",
-        "DeliveryUrl": "https://shopeefood.vn/da-nang/box-boog-nuoc-ep-nguyen-chat-trai-cay-cat-an-vat"
-    },
-    {
-        "Id": 1210268,
-        "Name": "Tuệ Tâm Vegan - 52 Đoàn Nhữ Hài",
-        "Address": "52 Đoàn Nhữ Hài, P. Hòa Khê",
-        "District": "Quận Thanh Khê",
-        "AvgRating": "_._",
-        "DeliveryUrl": "https://shopeefood.vn/da-nang/tue-tam-vegan-52-doan-nhu-hai"
-    },
-    {
-        "Id": 1000077252,
-        "Name": "Box & Boog - Nước Ép Nguyên Chất, Trái Cây Cắt & Ăn Vặt",
-        "Address": "211/2 Nguyễn Văn Thoại, An Hải, P. An Hải Đông",
-        "District": "Quận Ngũ Hành Sơn",
-        "AvgRating": "_._",
-        "DeliveryUrl": "https://shopeefood.vn/da-nang/box-boog-nuoc-ep-nguyen-chat-trai-cay-cat-an-vat"
-    },
-    {
-        "Id": 1216703,
-        "Name": "Bánh Mì Chay - Trần Tống - Trần Cao Vân",
-        "Address": "765 Trần Cao Vân, P. Thanh Khê Đông",
-        "District": "Quận Thanh Khê",
-        "AvgRating": "_._",
-        "DeliveryUrl": "https://shopeefood.vn/da-nang/banh-mi-chay-tran-tong-tran-cao-van"
-    },
-    {
-        "Id": 1203766,
-        "Name": "Quán Hoàng Ân - Bún Thịt Nướng, Bánh Canh & Bánh Xèo",
-        "Address": "27 Phan Thanh, P.Thạc Gián",
-        "District": "Quận Thanh Khê",
-        "AvgRating": "_._",
-        "DeliveryUrl": "https://shopeefood.vn/da-nang/quan-hoang-an-bun-thit-nuong-banh-canh-banh-xeo"
-    },
-    {
-        "Id": 1216138,
-        "Name": "Hí Chay - Ăn Vặt Chay",
-        "Address": "118 Nguyễn Phong Sắc, P. Khuê Trung",
-        "District": "Quận Cẩm Lệ",
-        "AvgRating": "_._",
-        "DeliveryUrl": "https://shopeefood.vn/da-nang/hi-chay-an-vat-chay"
-    },
-    {
-        "Id": 1201242,
-        "Name": "Quán Chay Quảng Diệu - 32 Tôn Đản",
-        "Address": "32 Tôn Đản, P. Hòa An",
-        "District": "Quận Cẩm Lệ",
-        "AvgRating": "_._",
-        "DeliveryUrl": "https://shopeefood.vn/da-nang/quan-chay-quang-dieu-32-ton-dan"
-    },
-    {
-        "Id": 1200636,
-        "Name": "Bánh Mì Chay Hội An & Bánh Cuốn Chả Chay Hà Nội - Đỗ Quang",
-        "Address": "191/37 Đỗ Quang, P. Vĩnh Trung",
-        "District": "Quận Thanh Khê",
-        "AvgRating": "_._",
-        "DeliveryUrl": "https://shopeefood.vn/da-nang/banh-mi-chay-hoi-an-banh-cuon-cha-chay-ha-noi-do-quang"
-    },
-    {
-        "Id": 1178441,
-        "Name": "Bếp Chay Cô Quýt - Bánh Lọc Chay, Bún Nướng & Bánh Hỏi Chay",
-        "Address": "37 Nguyễn Nhược Pháp, P. Hòa Minh",
-        "District": "Quận Liên Chiểu",
-        "AvgRating": "_._",
-        "DeliveryUrl": "https://shopeefood.vn/da-nang/bep-chay-co-quyt-banh-loc-chay-bun-nuong-banh-hoi-chay"
+        "DeliveryUrl": "https://shopeefood.vn/da-nang/thuc-pham-chay-vien-quang"
     },
     {
         "Id": 1231956,
@@ -872,220 +632,92 @@
         "DeliveryUrl": "https://shopeefood.vn/da-nang/chao-sup-dinh-duong-ba-xi-322-nguyen-hoang.xmmqs8"
     },
     {
-        "Id": 1000030725,
-        "Name": "Mì Quảng Thanh 37 A Đào Duy Kỳ - Mì Quảng - Đào Du Kì",
-        "Address": "37A  Đào Duy Kỳ, P. Nại Hiên Đông",
-        "District": "Quận Sơn Trà",
-        "AvgRating": "_._",
-        "DeliveryUrl": "https://shopeefood.vn/da-nang/mi-quang-thanh-37-a-dao-duy-ky-mi-quang-dao-du-ki.woyhgu"
-    },
-    {
-        "Id": 1000058593,
-        "Name": "Quán Chay Tâm Duyên - Cơm Chay - Trương Định",
-        "Address": "38 Trương Định, P. Mân Thái",
-        "District": "Quận Sơn Trà",
-        "AvgRating": "_._",
-        "DeliveryUrl": "https://shopeefood.vn/da-nang/quan-chay-tam-duyen-com-chay-truong-dinh"
-    },
-    {
-        "Id": 1000052604,
-        "Name": "Bếp Chay Thảo - Lê Đình Lý",
-        "Address": "74 Lê Đình Lý, P. Vĩnh Trung",
+        "Id": 1054072,
+        "Name": "Quán Chay Thảo Ngọc",
+        "Address": "469 Hải Phòng, P. Chính Gián",
         "District": "Quận Thanh Khê",
         "AvgRating": "_._",
-        "DeliveryUrl": "https://shopeefood.vn/da-nang/bep-chay-thao-le-dinh-ly.f9rvdl"
+        "DeliveryUrl": "https://shopeefood.vn/da-nang/quan-chay-thao-ngoc"
     },
     {
-        "Id": 1000055077,
-        "Name": "21 Grams Vegetarian  - Nhà hàng chay - Dương Đình Nghệ",
-        "Address": "239 Dương Đình Nghệ",
-        "District": "Quận Sơn Trà",
-        "AvgRating": "_._",
-        "DeliveryUrl": "https://shopeefood.vn/da-nang/21-grams-vegetarian-nha-hang-chay-duong-dinh-nghe.km9ctp"
-    },
-    {
-        "Id": 1000075508,
-        "Name": "Bếp Thu Veggie - Mít Trộn Rong Biển - Hoa Lư",
-        "Address": "100 Hoa Lư, P. Nại Hiên Đông",
-        "District": "Quận Sơn Trà",
-        "AvgRating": "_._",
-        "DeliveryUrl": "https://shopeefood.vn/da-nang/bep-thu-veggie-mit-tron-rong-bien-hoa-lu"
-    },
-    {
-        "Id": 1000074926,
-        "Name": "NGŨ CỐC NHƯ THẢO - Dinh Dưỡng - 301 NGUYỄN HOÀNG",
-        "Address": "301 Nguyễn Hoàng, P. Bình Hiên",
+        "Id": 1176594,
+        "Name": "Nhà Chay Shala - Shala Vegan House - Nguyễn Du",
+        "Address": "K87/16 Nguyễn Du, P. Thạch Thang",
         "District": "Quận Hải Châu",
         "AvgRating": "_._",
-        "DeliveryUrl": "https://shopeefood.vn/da-nang/ngu-coc-nhu-thao-dinh-duong-301-nguyen-hoang"
+        "DeliveryUrl": "https://shopeefood.vn/da-nang/nha-chay-shala-shala-vegan-house-nguyen-du"
     },
     {
-        "Id": 1000081654,
-        "Name": "Grazie's Kitchen - Vegan Cafe & Cake Quán Chay - An Thượng 3",
-        "Address": "12 An Thượng 3",
-        "District": "Quận Ngũ Hành Sơn",
-        "AvgRating": "_._",
-        "DeliveryUrl": "https://shopeefood.vn/da-nang/grazie-s-kitchen-vegan-cafe-cake-quan-chay-an-thuong-3.cmfoa1"
-    },
-    {
-        "Id": 1000068564,
-        "Name": "Shamballa Vegetarian, Restaurant & Greenhouse - Nhà Hàng Chay - 277 Trần Hưng Đạo ",
-        "Address": "277 Trần Hưng Đạo, P. An Hải Bắc",
-        "District": "Quận Sơn Trà",
-        "AvgRating": "_._",
-        "DeliveryUrl": "https://shopeefood.vn/da-nang/shamballa-vegetarian-restaurant-greenhouse-nha-hang-chay-277-tran-hung-dao"
-    },
-    {
-        "Id": 944649,
-        "Name": "Quán Chay Hương Sen",
-        "Address": "158 Phạm Tứ, P. Khuê Trung",
+        "Id": 1177059,
+        "Name": "Quán Chay Tâm An - 105 Phạm Thế Hiển",
+        "Address": "105 Phạm Thế Hiển, P. Khuê Trung",
         "District": "Quận Cẩm Lệ",
         "AvgRating": "_._",
-        "DeliveryUrl": "https://shopeefood.vn/da-nang/quan-chay-huong-sen"
+        "DeliveryUrl": "https://shopeefood.vn/da-nang/quan-chay-tam-an-khai-tam-cu-105-pham-the-hien"
     },
     {
-        "Id": 1084200,
-        "Name": "Tiệm Chay Chickpea Eatery - Trương Định",
-        "Address": "73/12 Trương Định, P.Mân Thái",
-        "District": "Quận Sơn Trà",
-        "AvgRating": "_._",
-        "DeliveryUrl": "https://shopeefood.vn/da-nang/tiem-chay-chickpea-eatery-truong-dinh"
-    },
-    {
-        "Id": 1118996,
-        "Name": "Gác Tịnh - Cafe & Ẩm Thực Chay",
-        "Address": "38 - 40 Xô Viết Nghệ Tĩnh, P. Hòa Cường Nam",
-        "District": "Quận Hải Châu",
-        "AvgRating": "_._",
-        "DeliveryUrl": "https://shopeefood.vn/da-nang/gac-tinh-cafe-am-thuc-chay"
-    },
-    {
-        "Id": 1238174,
-        "Name": "Tathata Vegan Restaurant & Coffee",
-        "Address": "56D Lê Hồng Phong, P. Phước Ninh",
-        "District": "Quận Hải Châu",
-        "AvgRating": "_._",
-        "DeliveryUrl": "https://shopeefood.vn/da-nang/tathata-vegan-restaurant-coffee"
-    },
-    {
-        "Id": 1243634,
-        "Name": "Quán Chay Sáu Thu - 58 Non Nước",
-        "Address": "58 Non Nước, P. Hoà Hải",
-        "District": "Quận Ngũ Hành Sơn",
-        "AvgRating": "_._",
-        "DeliveryUrl": "https://shopeefood.vn/da-nang/quan-chay-sau-thu-58-non-nuoc"
-    },
-    {
-        "Id": 1000035833,
-        "Name": "Quán 314 - Chay",
-        "Address": " 279 Thái Thị Bôi, P. Chính Gián",
+        "Id": 1210268,
+        "Name": "Tuệ Tâm Vegan - 52 Đoàn Nhữ Hài",
+        "Address": "52 Đoàn Nhữ Hài, P. Hòa Khê",
         "District": "Quận Thanh Khê",
         "AvgRating": "_._",
-        "DeliveryUrl": "https://shopeefood.vn/da-nang/qua-n-314-chay.gwukom"
+        "DeliveryUrl": "https://shopeefood.vn/da-nang/tue-tam-vegan-52-doan-nhu-hai"
     },
     {
-        "Id": 1000047623,
-        "Name": "Enfood - Bếp Healthy - Đà Nẵng",
-        "Address": "31 Hà Huy Giáp, P. Hoà Cường Nam",
+        "Id": 1224896,
+        "Name": "Quán Chay 269/25 - Ông Ích Khiêm",
+        "Address": "K269/25 Ông Ích Khiêm, P. Hải Châu 2",
         "District": "Quận Hải Châu",
         "AvgRating": "_._",
-        "DeliveryUrl": "https://shopeefood.vn/da-nang/enfood-bep-healthy-da-nang.ukbjcj"
+        "DeliveryUrl": "https://shopeefood.vn/da-nang/quan-chay-269-25-ong-ich-khiem"
     },
     {
-        "Id": 1000051091,
-        "Name": "CƠM CHAY HÒA XUÂN - Sinh Tố & Nước Ép Trái Cây Sạch - 147 Văn Tiến Dũng",
-        "Address": "147 Văn Tiến Dũng, P. Hòa Xuân",
-        "District": "Quận Cẩm Lệ",
-        "AvgRating": "_._",
-        "DeliveryUrl": "https://shopeefood.vn/da-nang/com-chay-hoa-xuan-sinh-to-nuoc-ep-trai-cay-sach-147-van-tien-dung.hphxbc"
-    },
-    {
-        "Id": 1000055956,
-        "Name": "Yến Sào Chưng Trực Tiếp Ly Nguyen - 72 Hà Tông Quyền",
-        "Address": "72 Hà Tông Quyền",
-        "District": "Quận Cẩm Lệ",
-        "AvgRating": "_._",
-        "DeliveryUrl": "https://shopeefood.vn/da-nang/yen-sao-chung-truc-tiep-ly-nguyen-72-ha-tong-quyen"
-    },
-    {
-        "Id": 1000068564,
-        "Name": "Shamballa Vegetarian, Restaurant & Greenhouse - Nhà Hàng Chay - 277 Trần Hưng Đạo ",
-        "Address": "277 Trần Hưng Đạo, P. An Hải Bắc",
-        "District": "Quận Sơn Trà",
-        "AvgRating": "_._",
-        "DeliveryUrl": "https://shopeefood.vn/da-nang/shamballa-vegetarian-restaurant-greenhouse-nha-hang-chay-277-tran-hung-dao"
-    },
-    {
-        "Id": 1064033,
-        "Name": "Quán Chay Nhân Nghĩa",
-        "Address": "160 Trần Đại Nghĩa, P. Hòa Hải",
-        "District": "Quận Ngũ Hành Sơn",
-        "AvgRating": "_._",
-        "DeliveryUrl": "https://shopeefood.vn/da-nang/quan-chay-nhan-nghia"
-    },
-    {
-        "Id": 1060394,
-        "Name": "Quán Chay An Nhiên",
-        "Address": "75 Dương Trí Trạch, P. An Hải Bắc",
-        "District": "Quận Sơn Trà",
-        "AvgRating": "_._",
-        "DeliveryUrl": "https://shopeefood.vn/da-nang/quan-chay-an-nhien"
-    },
-    {
-        "Id": 1073276,
-        "Name": "Chay Tâm Phúc",
-        "Address": "132A Quang Trung, P. Thạch Thang",
-        "District": "Quận Hải Châu",
-        "AvgRating": "_._",
-        "DeliveryUrl": "https://shopeefood.vn/da-nang/chay-tam-phuc"
-    },
-    {
-        "Id": 1071211,
-        "Name": "Phiêu Quán - Mẹt Gà Uyên Ương & Mẹt Nướng Tổng Hợp",
-        "Address": "100 Bùi Tá Hán, P. Khuê Mỹ",
-        "District": "Quận Ngũ Hành Sơn",
-        "AvgRating": "_._",
-        "DeliveryUrl": "https://shopeefood.vn/da-nang/phieu-quan-met-ga-uyen-uong-met-nuong-tong-hop"
-    },
-    {
-        "Id": 1070421,
-        "Name": "Ẩm Thực Chay Bình Minh - Lê Duẩn",
-        "Address": "350/14 Lê Duẩn",
+        "Id": 1203766,
+        "Name": "Quán Hoàng Ân - Bún Thịt Nướng, Bánh Canh & Bánh Xèo",
+        "Address": "27 Phan Thanh, P.Thạc Gián",
         "District": "Quận Thanh Khê",
         "AvgRating": "_._",
-        "DeliveryUrl": "https://shopeefood.vn/da-nang/am-thuc-chay-binh-minh-le-duan"
+        "DeliveryUrl": "https://shopeefood.vn/da-nang/quan-hoang-an-bun-thit-nuong-banh-canh-banh-xeo"
     },
     {
-        "Id": 1204698,
-        "Name": "Quán Chay Búp Sen - 377 Ngô Quyền",
-        "Address": "377 Ngô Quyền, P. An Hải Bắc",
-        "District": "Quận Sơn Trà",
+        "Id": 1204702,
+        "Name": "Cơm Chay Diệu Như - 37 Mẹ Suốt",
+        "Address": "37 Mẹ Suốt, P.Hòa Khánh Nam",
+        "District": "Quận Liên Chiểu",
         "AvgRating": "_._",
-        "DeliveryUrl": "https://shopeefood.vn/da-nang/quan-chay-bup-sen-377-ngo-quyen"
+        "DeliveryUrl": "https://shopeefood.vn/da-nang/com-chay-dieu-nhu-37-me-suot"
     },
     {
-        "Id": 1176088,
-        "Name": "Quán Chay Đại Bi",
-        "Address": "678 Đ. 2 Tháng 9, P. Hòa Cường Nam",
-        "District": "Quận Hải Châu",
+        "Id": 1189853,
+        "Name": "Trí Huyền Food - Thực Phẩm Chay Dưỡng Sinh",
+        "Address": "166 Phạm Hùng, Xã Hòa Châu",
+        "District": "Huyện Hòa Vang",
         "AvgRating": "_._",
-        "DeliveryUrl": "https://shopeefood.vn/da-nang/quan-chay-dai-bi"
+        "DeliveryUrl": "https://shopeefood.vn/da-nang/tri-huyen-food-thuc-pham-chay-duong-sinh"
     },
     {
-        "Id": 1176779,
-        "Name": "Quán Chay Tuỳ Duyên - 74 Cao Sơn Pháo",
-        "Address": "74 Cao Sơn Pháo, P. Hòa An",
+        "Id": 1174109,
+        "Name": "Chay Thường Lạc - Lẩu Chay & Bún Đậu Chay - Trần Cao Vân",
+        "Address": "K484/46 Trần Cao Vân, P. Xuân Hà",
+        "District": "Quận Thanh Khê",
+        "AvgRating": "_._",
+        "DeliveryUrl": "https://shopeefood.vn/da-nang/chay-thuong-lac-lau-chay-bun-dau-chay-tran-cao-van"
+    },
+    {
+        "Id": 1181647,
+        "Name": "Bánh Mì Chay Từ Tâm - Tôn Đản",
+        "Address": "K139 Tôn Đản, P. Hoà An",
         "District": "Quận Cẩm Lệ",
         "AvgRating": "_._",
-        "DeliveryUrl": "https://shopeefood.vn/da-nang/quan-chay-tuy-duyen-74-cao-son-phao"
+        "DeliveryUrl": "https://shopeefood.vn/da-nang/banh-mi-chay-tu-tam-ton-dan"
     },
     {
-        "Id": 1000077609,
-        "Name": "Roots Plant -  Based Cafe & Đồ Ăn Thuần Chay - 26-27 Trần Bạch Đằng",
-        "Address": "Lô 26-27 Trần Bạch Đằng, P. Mỹ An",
-        "District": "Quận Ngũ Hành Sơn",
+        "Id": 1178441,
+        "Name": "Bếp Chay Cô Quýt - Bánh Lọc Chay, Bún Nướng & Bánh Hỏi Chay",
+        "Address": "37 Nguyễn Nhược Pháp, P. Hòa Minh",
+        "District": "Quận Liên Chiểu",
         "AvgRating": "_._",
-        "DeliveryUrl": "https://shopeefood.vn/da-nang/roots-plant-based-cafe-do-an-thuan-chay-26-27-tran-bach-dang"
+        "DeliveryUrl": "https://shopeefood.vn/da-nang/bep-chay-co-quyt-banh-loc-chay-bun-nuong-banh-hoi-chay"
     },
     {
         "Id": 1196269,
@@ -1104,36 +736,52 @@
         "DeliveryUrl": "https://shopeefood.vn/da-nang/tiem-chay-goom-thanh-luong-23"
     },
     {
-        "Id": 1192922,
-        "Name": "Quán Chay Chân Tâm - 16 Trần Thúc Nhẫn",
-        "Address": "16 Trần Thúc Nhẫn, P. Hòa Xuân",
-        "District": "Quận Cẩm Lệ",
+        "Id": 1211688,
+        "Name": "Quán Chay Gia An - Bùi Huy Bích",
+        "Address": "100 Bùi Huy Bích, P. Nại Hiên Đông",
+        "District": "Quận Sơn Trà",
         "AvgRating": "_._",
-        "DeliveryUrl": "https://shopeefood.vn/da-nang/quan-chay-chan-tam-16-tran-thuc-nhan"
+        "DeliveryUrl": "https://shopeefood.vn/da-nang/quan-chay-gia-an-bui-huy-bich"
     },
     {
-        "Id": 1171979,
-        "Name": "Hạnh Nguyên - Món Chay Healthy & Café",
-        "Address": "23 Khuê Mỹ Đông 1, P.Khuê Mỹ",
-        "District": "Quận Ngũ Hành Sơn",
-        "AvgRating": "_._",
-        "DeliveryUrl": "https://shopeefood.vn/da-nang/hanh-nguyen-mon-chay-healthy-cafe"
-    },
-    {
-        "Id": 1172464,
-        "Name": "Chay Bà Tư - 42 Huỳnh Ngọc Huệ",
-        "Address": "42 Huỳnh Ngọc Huệ, P. Hòa Khê",
+        "Id": 1144539,
+        "Name": "Quán Chay Tâm Thiện Phước - Trần Cao Vân",
+        "Address": "697A Trần Cao Vân, P. Thanh Khê Đông",
         "District": "Quận Thanh Khê",
         "AvgRating": "_._",
-        "DeliveryUrl": "https://shopeefood.vn/da-nang/chay-ba-tu-42-huynh-ngoc-hue"
+        "DeliveryUrl": "https://shopeefood.vn/da-nang/quan-chay-tam-thien-phuoc-tran-cao-van"
     },
     {
-        "Id": 1180370,
-        "Name": "Ẩm Thực Cơm Chay Healthy - Quán Chay Vegan - 114 Lê Thanh Nghị",
-        "Address": "114 Lê Thanh Nghị, P. Hòa Cường Bắc",
+        "Id": 1207102,
+        "Name": "Quán Chay Thanh Lương - 34B Vũ Đình Long",
+        "Address": "34B Vũ Đình Long, P. Thọ Quang",
+        "District": "Quận Sơn Trà",
+        "AvgRating": "_._",
+        "DeliveryUrl": "https://shopeefood.vn/da-nang/quan-chay-thanh-luong-34b-vu-dinh-long"
+    },
+    {
+        "Id": 1220536,
+        "Name": "Quán Chay Lộc Thiện Phước - 133 Ông Ích Khiêm",
+        "Address": "133 Ông Ích Khiêm, P. Thanh Bình",
         "District": "Quận Hải Châu",
         "AvgRating": "_._",
-        "DeliveryUrl": "https://shopeefood.vn/da-nang/am-thuc-com-chay-healthy-quan-chay-vegan-114-le-thanh-nghi"
+        "DeliveryUrl": "https://shopeefood.vn/da-nang/quan-chay-loc-thien-phuoc-133-ong-ich-khiem"
+    },
+    {
+        "Id": 1218627,
+        "Name": "Happy Chay - 145 Mẹ Nhu",
+        "Address": "145 Mẹ Nhu, P. Thanh Khê Tây",
+        "District": "Quận Thanh Khê",
+        "AvgRating": "_._",
+        "DeliveryUrl": "https://shopeefood.vn/da-nang/happy-chay-145-me-nhu"
+    },
+    {
+        "Id": 1219197,
+        "Name": "Tiệm Chay Nho Nhỏ KARMA VEGAN - 136/3 Nguyễn Lương Bằng",
+        "Address": "K136/3 Nguyễn Lương Bằng, P. Hòa Khánh Bắc",
+        "District": "Quận Liên Chiểu",
+        "AvgRating": "_._",
+        "DeliveryUrl": "https://shopeefood.vn/da-nang/tiem-chay-nho-nho-karma-vegan-136-3-nguyen-luong-bang"
     },
     {
         "Id": 1224900,
@@ -1144,6 +792,142 @@
         "DeliveryUrl": "https://shopeefood.vn/da-nang/quan-chay-dieu-thuong"
     },
     {
+        "Id": 1227821,
+        "Name": "Quán Chay Gia An - 236 Khúc Hạo",
+        "Address": "236 Khúc Hạo, P. Nại Hiên Đông",
+        "District": "Quận Sơn Trà",
+        "AvgRating": "_._",
+        "DeliveryUrl": "https://shopeefood.vn/da-nang/quan-chay-gia-an-236-khuc-hao"
+    },
+    {
+        "Id": 1000040520,
+        "Name": "Ẩm Thực Chay Hạnh Thiện - Quán Chay - 41A Trần Nhật Duật",
+        "Address": "41 A Trần Nhật Duật, P. Thọ Quang",
+        "District": "Quận Sơn Trà",
+        "AvgRating": "_._",
+        "DeliveryUrl": "https://shopeefood.vn/da-nang/am-thuc-chay-hanh-thien-quan-chay-41a-tran-nhat-duat.4l8j0c"
+    },
+    {
+        "Id": 1000074966,
+        "Name": "Chay Corner Minis - Vietnamese Dumplings - Nguyễn Hoàng",
+        "Address": "400 Nguyễn Hoàng, P. Bình Thuận",
+        "District": "Quận Hải Châu",
+        "AvgRating": "_._",
+        "DeliveryUrl": "https://shopeefood.vn/da-nang/chay-corner-minis-vietnamese-dumplings-nguyen-hoang"
+    },
+    {
+        "Id": 1000074614,
+        "Name": "Điểu - Bún, Mỳ Quảng & Nước Ép Trái Cây Các Loại - Trần Nam Trung",
+        "Address": "22 Trần Nam Trung, P. Hòa Xuân",
+        "District": "Quận Cẩm Lệ",
+        "AvgRating": "_._",
+        "DeliveryUrl": "https://shopeefood.vn/da-nang/dieu-bun-my-quang-nuoc-ep-trai-cay-cac-loai-tran-nam-trung"
+    },
+    {
+        "Id": 1000077252,
+        "Name": "Box & Boog - Nước Ép Nguyên Chất, Trái Cây Cắt & Ăn Vặt",
+        "Address": "211/2 Nguyễn Văn Thoại, An Hải, P. An Hải Đông",
+        "District": "Quận Ngũ Hành Sơn",
+        "AvgRating": "_._",
+        "DeliveryUrl": "https://shopeefood.vn/da-nang/box-boog-nuoc-ep-nguyen-chat-trai-cay-cat-an-vat"
+    },
+    {
+        "Id": 1000070942,
+        "Name": "Sữa Hạt Ana - 12 Yên Bái",
+        "Address": "12 Yên Bái, P. Hải Châu 1",
+        "District": "Quận Hải Châu",
+        "AvgRating": "_._",
+        "DeliveryUrl": "https://shopeefood.vn/da-nang/sua-hat-ana-12-yen-bai"
+    },
+    {
+        "Id": 1000072132,
+        "Name": "Achcha - Cà Phê & Món Chay - Triệu Việt Vương",
+        "Address": "03 Triệu Việt Vương, P. An Hải Tây",
+        "District": "Quận Sơn Trà",
+        "AvgRating": "_._",
+        "DeliveryUrl": "https://shopeefood.vn/da-nang/achcha-ca-phe-mon-chay-trieu-viet-vuong"
+    },
+    {
+        "Id": 944649,
+        "Name": "Quán Chay Hương Sen",
+        "Address": "158 Phạm Tứ, P. Khuê Trung",
+        "District": "Quận Cẩm Lệ",
+        "AvgRating": "_._",
+        "DeliveryUrl": "https://shopeefood.vn/da-nang/quan-chay-huong-sen"
+    },
+    {
+        "Id": 963223,
+        "Name": "Quán Chay Bồ Đề Tâm",
+        "Address": "117 Ung Văn Khiêm, P. Mỹ An",
+        "District": "Quận Ngũ Hành Sơn",
+        "AvgRating": "_._",
+        "DeliveryUrl": "https://shopeefood.vn/da-nang/quan-chay-bo-de-tam"
+    },
+    {
+        "Id": 1060014,
+        "Name": "Bánh Mì Chay Ngọc Tứ - Lê Độ",
+        "Address": "117 Lê Độ, P. Chính Gián",
+        "District": "Quận Thanh Khê",
+        "AvgRating": "_._",
+        "DeliveryUrl": "https://shopeefood.vn/da-nang/banh-mi-chay-ngoc-tu-le-do"
+    },
+    {
+        "Id": 1051601,
+        "Name": "Thiện Quán - Đặc Sản Chay",
+        "Address": "K356/49 Hoàng Diệu, P. Bình Thuận",
+        "District": "Quận Hải Châu",
+        "AvgRating": "_._",
+        "DeliveryUrl": "https://shopeefood.vn/da-nang/thien-quan-dac-san-chay"
+    },
+    {
+        "Id": 1061585,
+        "Name": "Bánh Mì Chay An Yên",
+        "Address": "98 Hoàng Văn Thụ, P. Phước Ninh",
+        "District": "Quận Hải Châu",
+        "AvgRating": "_._",
+        "DeliveryUrl": "https://shopeefood.vn/da-nang/banh-mi-chay-an-yen"
+    },
+    {
+        "Id": 1061285,
+        "Name": "Quán Chay Trường Kỳ",
+        "Address": "129 Phan Đăng Lưu, P. Hòa Cường Nam",
+        "District": "Quận Hải Châu",
+        "AvgRating": "_._",
+        "DeliveryUrl": "https://shopeefood.vn/da-nang/quan-chay-truong-ky"
+    },
+    {
+        "Id": 1005014,
+        "Name": "Quán Chay Hà - Đoàn Thị Điểm",
+        "Address": "16 Đoàn Thị Điểm, P. Hải Châu 2",
+        "District": "Quận Hải Châu",
+        "AvgRating": "_._",
+        "DeliveryUrl": "https://shopeefood.vn/da-nang/quan-chay-ha-doan-thi-diem"
+    },
+    {
+        "Id": 1217850,
+        "Name": "Tiệm Chay Cà Phê Phước An - 522/1 Núi Thành",
+        "Address": "522/1 Núi Thành, P. Hòa Cường Nam",
+        "District": "Quận Hải Châu",
+        "AvgRating": "_._",
+        "DeliveryUrl": "https://shopeefood.vn/da-nang/tiem-chay-ca-phe-phuoc-an-522-1-nui-thanh"
+    },
+    {
+        "Id": 1231820,
+        "Name": "Quán Chay An Nhiên - 8 Cẩm Chánh 4",
+        "Address": "8 Cẩm Chánh 4, X. Hòa Xuân",
+        "District": "Quận Cẩm Lệ",
+        "AvgRating": "_._",
+        "DeliveryUrl": "https://shopeefood.vn/da-nang/quan-chay-an-nhien-8-cam-chanh-4"
+    },
+    {
+        "Id": 1213460,
+        "Name": "Visakha Vegan",
+        "Address": "600A Ông Ích Khiêm, P. Nam Dương",
+        "District": "Quận Hải Châu",
+        "AvgRating": "_._",
+        "DeliveryUrl": "https://shopeefood.vn/da-nang/visakha-vegan"
+    },
+    {
         "Id": 1197774,
         "Name": "HATSIM - Sữa Hạt & Đồ Uống Thuần Chay - Bùi Tá Hán",
         "Address": "40 Bùi Tá Hán, P. Khuê Mỹ",
@@ -1152,196 +936,36 @@
         "DeliveryUrl": "https://shopeefood.vn/da-nang/hatsim-sua-hat-do-uong-thuan-chay-bui-ta-han"
     },
     {
-        "Id": 1220744,
-        "Name": "Há Cảo - A Mập - 19/11 Hoàng Hoa Thám",
-        "Address": "19/11 Hoàng Hoa Thám, P. Tân Chính",
+        "Id": 1214423,
+        "Name": "Chay Thiên Mộc - 86 Hà Huy Tập",
+        "Address": "86 Hà Huy Tập, P. Hòa Khê",
         "District": "Quận Thanh Khê",
         "AvgRating": "_._",
-        "DeliveryUrl": "https://shopeefood.vn/da-nang/ha-cao-a-map-19-11-hoang-hoa-tham"
+        "DeliveryUrl": "https://shopeefood.vn/da-nang/chay-thien-moc-86-ha-huy-tap"
     },
     {
-        "Id": 1223586,
-        "Name": "Harmony Vegetarian - Chay - Lê Hồng Phong",
-        "Address": "56D Lê Hồng Phong, P. Phước Ninh",
-        "District": "Quận Hải Châu",
-        "AvgRating": "_._",
-        "DeliveryUrl": "https://shopeefood.vn/da-nang/harmony-vegetarian-chay-le-hong-phong"
-    },
-    {
-        "Id": 1223233,
-        "Name": "Chay Viên Nhã - 25 Bàu Mạc 6",
-        "Address": "25 Bàu Mạc 6, P. Hoà Khánh Bắc",
+        "Id": 1230003,
+        "Name": "Chay Thanh Tịnh - Đặng Dung",
+        "Address": "11 Đặng Dung, P. Hòa Khánh Bắc",
         "District": "Quận Liên Chiểu",
         "AvgRating": "_._",
-        "DeliveryUrl": "https://shopeefood.vn/da-nang/chay-vien-nha-25-bau-mac-6"
+        "DeliveryUrl": "https://shopeefood.vn/da-nang/chay-thanh-tinh-dang-dung"
     },
     {
-        "Id": 1200636,
-        "Name": "Bánh Mì Chay Hội An & Bánh Cuốn Chả Chay Hà Nội - Đỗ Quang",
-        "Address": "191/37 Đỗ Quang, P. Vĩnh Trung",
-        "District": "Quận Thanh Khê",
-        "AvgRating": "_._",
-        "DeliveryUrl": "https://shopeefood.vn/da-nang/banh-mi-chay-hoi-an-banh-cuon-cha-chay-ha-noi-do-quang"
-    },
-    {
-        "Id": 1000077252,
-        "Name": "Box & Boog - Nước Ép Nguyên Chất, Trái Cây Cắt & Ăn Vặt",
-        "Address": "211/2 Nguyễn Văn Thoại, An Hải, P. An Hải Đông",
-        "District": "Quận Ngũ Hành Sơn",
-        "AvgRating": "_._",
-        "DeliveryUrl": "https://shopeefood.vn/da-nang/box-boog-nuoc-ep-nguyen-chat-trai-cay-cat-an-vat"
-    },
-    {
-        "Id": 1216138,
-        "Name": "Hí Chay - Ăn Vặt Chay",
-        "Address": "118 Nguyễn Phong Sắc, P. Khuê Trung",
+        "Id": 1233670,
+        "Name": "CHAY HOA SEN VÀNG",
+        "Address": "714 HO2/10 Trường Chinh",
         "District": "Quận Cẩm Lệ",
         "AvgRating": "_._",
-        "DeliveryUrl": "https://shopeefood.vn/da-nang/hi-chay-an-vat-chay"
+        "DeliveryUrl": "https://shopeefood.vn/da-nang/chay-hoa-sen-vang"
     },
     {
-        "Id": 1216703,
-        "Name": "Bánh Mì Chay - Trần Tống - Trần Cao Vân",
-        "Address": "765 Trần Cao Vân, P. Thanh Khê Đông",
-        "District": "Quận Thanh Khê",
-        "AvgRating": "_._",
-        "DeliveryUrl": "https://shopeefood.vn/da-nang/banh-mi-chay-tran-tong-tran-cao-van"
-    },
-    {
-        "Id": 1224896,
-        "Name": "Quán Chay 269/25 - Ông Ích Khiêm",
-        "Address": "K269/25 Ông Ích Khiêm, P. Hải Châu 2",
-        "District": "Quận Hải Châu",
-        "AvgRating": "_._",
-        "DeliveryUrl": "https://shopeefood.vn/da-nang/quan-chay-269-25-ong-ich-khiem"
-    },
-    {
-        "Id": 1193110,
-        "Name": "Quán Kiêm - Bánh Bèo Chay & Mặn - 34 Bình Thái 1",
-        "Address": "34 Bình Thái 1, P. Hòa Thọ Đông",
+        "Id": 1234089,
+        "Name": "Quán Chay Khai Ngộ - 141 Kiều Phụng",
+        "Address": "141 Kiều Phụng, P. Hòa Xuân",
         "District": "Quận Cẩm Lệ",
         "AvgRating": "_._",
-        "DeliveryUrl": "https://shopeefood.vn/da-nang/quan-kiem-banh-beo-chay-man-34-binh-thai-1"
-    },
-    {
-        "Id": 1201242,
-        "Name": "Quán Chay Quảng Diệu - 32 Tôn Đản",
-        "Address": "32 Tôn Đản, P. Hòa An",
-        "District": "Quận Cẩm Lệ",
-        "AvgRating": "_._",
-        "DeliveryUrl": "https://shopeefood.vn/da-nang/quan-chay-quang-dieu-32-ton-dan"
-    },
-    {
-        "Id": 1203766,
-        "Name": "Quán Hoàng Ân - Bún Thịt Nướng, Bánh Canh & Bánh Xèo",
-        "Address": "27 Phan Thanh, P.Thạc Gián",
-        "District": "Quận Thanh Khê",
-        "AvgRating": "_._",
-        "DeliveryUrl": "https://shopeefood.vn/da-nang/quan-hoang-an-bun-thit-nuong-banh-canh-banh-xeo"
-    },
-    {
-        "Id": 1210268,
-        "Name": "Tuệ Tâm Vegan - 52 Đoàn Nhữ Hài",
-        "Address": "52 Đoàn Nhữ Hài, P. Hòa Khê",
-        "District": "Quận Thanh Khê",
-        "AvgRating": "_._",
-        "DeliveryUrl": "https://shopeefood.vn/da-nang/tue-tam-vegan-52-doan-nhu-hai"
-    },
-    {
-        "Id": 1210268,
-        "Name": "Tuệ Tâm Vegan - 52 Đoàn Nhữ Hài",
-        "Address": "52 Đoàn Nhữ Hài, P. Hòa Khê",
-        "District": "Quận Thanh Khê",
-        "AvgRating": "_._",
-        "DeliveryUrl": "https://shopeefood.vn/da-nang/tue-tam-vegan-52-doan-nhu-hai"
-    },
-    {
-        "Id": 1000077252,
-        "Name": "Box & Boog - Nước Ép Nguyên Chất, Trái Cây Cắt & Ăn Vặt",
-        "Address": "211/2 Nguyễn Văn Thoại, An Hải, P. An Hải Đông",
-        "District": "Quận Ngũ Hành Sơn",
-        "AvgRating": "_._",
-        "DeliveryUrl": "https://shopeefood.vn/da-nang/box-boog-nuoc-ep-nguyen-chat-trai-cay-cat-an-vat"
-    },
-    {
-        "Id": 1216703,
-        "Name": "Bánh Mì Chay - Trần Tống - Trần Cao Vân",
-        "Address": "765 Trần Cao Vân, P. Thanh Khê Đông",
-        "District": "Quận Thanh Khê",
-        "AvgRating": "_._",
-        "DeliveryUrl": "https://shopeefood.vn/da-nang/banh-mi-chay-tran-tong-tran-cao-van"
-    },
-    {
-        "Id": 1203766,
-        "Name": "Quán Hoàng Ân - Bún Thịt Nướng, Bánh Canh & Bánh Xèo",
-        "Address": "27 Phan Thanh, P.Thạc Gián",
-        "District": "Quận Thanh Khê",
-        "AvgRating": "_._",
-        "DeliveryUrl": "https://shopeefood.vn/da-nang/quan-hoang-an-bun-thit-nuong-banh-canh-banh-xeo"
-    },
-    {
-        "Id": 1216138,
-        "Name": "Hí Chay - Ăn Vặt Chay",
-        "Address": "118 Nguyễn Phong Sắc, P. Khuê Trung",
-        "District": "Quận Cẩm Lệ",
-        "AvgRating": "_._",
-        "DeliveryUrl": "https://shopeefood.vn/da-nang/hi-chay-an-vat-chay"
-    },
-    {
-        "Id": 1201242,
-        "Name": "Quán Chay Quảng Diệu - 32 Tôn Đản",
-        "Address": "32 Tôn Đản, P. Hòa An",
-        "District": "Quận Cẩm Lệ",
-        "AvgRating": "_._",
-        "DeliveryUrl": "https://shopeefood.vn/da-nang/quan-chay-quang-dieu-32-ton-dan"
-    },
-    {
-        "Id": 1200636,
-        "Name": "Bánh Mì Chay Hội An & Bánh Cuốn Chả Chay Hà Nội - Đỗ Quang",
-        "Address": "191/37 Đỗ Quang, P. Vĩnh Trung",
-        "District": "Quận Thanh Khê",
-        "AvgRating": "_._",
-        "DeliveryUrl": "https://shopeefood.vn/da-nang/banh-mi-chay-hoi-an-banh-cuon-cha-chay-ha-noi-do-quang"
-    },
-    {
-        "Id": 1178441,
-        "Name": "Bếp Chay Cô Quýt - Bánh Lọc Chay, Bún Nướng & Bánh Hỏi Chay",
-        "Address": "37 Nguyễn Nhược Pháp, P. Hòa Minh",
-        "District": "Quận Liên Chiểu",
-        "AvgRating": "_._",
-        "DeliveryUrl": "https://shopeefood.vn/da-nang/bep-chay-co-quyt-banh-loc-chay-bun-nuong-banh-hoi-chay"
-    },
-    {
-        "Id": 1231956,
-        "Name": "Vui Chay - Take Away - 541/20 Núi Thành",
-        "Address": "541/20 Núi Thành, P. Hòa Cường Nam",
-        "District": "Quận Hải Châu",
-        "AvgRating": "_._",
-        "DeliveryUrl": "https://shopeefood.vn/da-nang/vui-chay-take-away-541-20-nui-thanh"
-    },
-    {
-        "Id": 1233683,
-        "Name": "Chay Trà An - 135 Hoàng Hoa Thám",
-        "Address": "135 Hoàng Hoa Thám, P. Tân Chính",
-        "District": "Quận Thanh Khê",
-        "AvgRating": "_._",
-        "DeliveryUrl": "https://shopeefood.vn/da-nang/chay-tra-an-135-hoang-hoa-tham"
-    },
-    {
-        "Id": 1244049,
-        "Name": "Quán Chay Phước Bảo - 177 Phạm Hùng",
-        "Address": "177 Phạm Hùng, P. Hòa Xuân",
-        "District": "Quận Cẩm Lệ",
-        "AvgRating": "_._",
-        "DeliveryUrl": "https://shopeefood.vn/da-nang/quan-chay-phuoc-bao-177-pham-hung"
-    },
-    {
-        "Id": 1000030725,
-        "Name": "Mì Quảng Thanh 37 A Đào Duy Kỳ - Mì Quảng - Đào Du Kì",
-        "Address": "37A  Đào Duy Kỳ, P. Nại Hiên Đông",
-        "District": "Quận Sơn Trà",
-        "AvgRating": "_._",
-        "DeliveryUrl": "https://shopeefood.vn/da-nang/mi-quang-thanh-37-a-dao-duy-ky-mi-quang-dao-du-ki.woyhgu"
+        "DeliveryUrl": "https://shopeefood.vn/da-nang/quan-chay-khai-ngo-141-kieu-phung"
     },
     {
         "Id": 1250340,
@@ -1360,12 +984,28 @@
         "DeliveryUrl": "https://shopeefood.vn/da-nang/com-chay-phuc-thien-an-194-pham-nhu-xuong"
     },
     {
-        "Id": 1247358,
-        "Name": "Quán Nhà Chay - Bánh Mì Chay & Bún Mắm Chay",
-        "Address": "68 Kinh Dương Vương, P. Thanh Khê Tây",
-        "District": "Quận Thanh Khê",
+        "Id": 1000075508,
+        "Name": "Bếp Thu Veggie - Mít Trộn Rong Biển - Hoa Lư",
+        "Address": "100 Hoa Lư, P. Nại Hiên Đông",
+        "District": "Quận Sơn Trà",
         "AvgRating": "_._",
-        "DeliveryUrl": "https://shopeefood.vn/da-nang/quan-nha-chay-banh-mi-chay-bun-mam-chay"
+        "DeliveryUrl": "https://shopeefood.vn/da-nang/bep-thu-veggie-mit-tron-rong-bien-hoa-lu"
+    },
+    {
+        "Id": 1000081654,
+        "Name": "Grazie's Kitchen - Vegan Cafe & Cake Quán Chay - An Thượng 3",
+        "Address": "12 An Thượng 3",
+        "District": "Quận Ngũ Hành Sơn",
+        "AvgRating": "_._",
+        "DeliveryUrl": "https://shopeefood.vn/da-nang/grazie-s-kitchen-vegan-cafe-cake-quan-chay-an-thuong-3.cmfoa1"
+    },
+    {
+        "Id": 1217850,
+        "Name": "Tiệm Chay Cà Phê Phước An - 522/1 Núi Thành",
+        "Address": "522/1 Núi Thành, P. Hòa Cường Nam",
+        "District": "Quận Hải Châu",
+        "AvgRating": "_._",
+        "DeliveryUrl": "https://shopeefood.vn/da-nang/tiem-chay-ca-phe-phuoc-an-522-1-nui-thanh"
     },
     {
         "Id": 1000040520,
@@ -1376,12 +1016,124 @@
         "DeliveryUrl": "https://shopeefood.vn/da-nang/am-thuc-chay-hanh-thien-quan-chay-41a-tran-nhat-duat.4l8j0c"
     },
     {
+        "Id": 1084200,
+        "Name": "Tiệm Chay Chickpea Eatery - Trương Định",
+        "Address": "73/12 Trương Định, P.Mân Thái",
+        "District": "Quận Sơn Trà",
+        "AvgRating": "_._",
+        "DeliveryUrl": "https://shopeefood.vn/da-nang/tiem-chay-chickpea-eatery-truong-dinh"
+    },
+    {
+        "Id": 1000077609,
+        "Name": "Roots Plant -  Based Cafe & Đồ Ăn Thuần Chay - 26-27 Trần Bạch Đằng",
+        "Address": "Lô 26-27 Trần Bạch Đằng, P. Mỹ An",
+        "District": "Quận Ngũ Hành Sơn",
+        "AvgRating": "_._",
+        "DeliveryUrl": "https://shopeefood.vn/da-nang/roots-plant-based-cafe-do-an-thuan-chay-26-27-tran-bach-dang"
+    },
+    {
+        "Id": 1000000262,
+        "Name": "Nguyên Hành - Quán Chay - Thanh Huy",
+        "Address": "3 Thanh Huy 1",
+        "District": "Quận Thanh Khê",
+        "AvgRating": "_._",
+        "DeliveryUrl": "https://shopeefood.vn/da-nang/nguyen-hanh-quan-chay-3-thanh-huy-1"
+    },
+    {
+        "Id": 1243634,
+        "Name": "Quán Chay Sáu Thu - 58 Non Nước",
+        "Address": "58 Non Nước, P. Hoà Hải",
+        "District": "Quận Ngũ Hành Sơn",
+        "AvgRating": "_._",
+        "DeliveryUrl": "https://shopeefood.vn/da-nang/quan-chay-sau-thu-58-non-nuoc"
+    },
+    {
+        "Id": 1247358,
+        "Name": "Quán Nhà Chay - Bánh Mì Chay & Bún Mắm Chay",
+        "Address": "68 Kinh Dương Vương, P. Thanh Khê Tây",
+        "District": "Quận Thanh Khê",
+        "AvgRating": "_._",
+        "DeliveryUrl": "https://shopeefood.vn/da-nang/chay-tra-an-135-hoang-hoa-tham"
+    },
+    {
+        "Id": 1000074926,
+        "Name": "NGŨ CỐC NHƯ THẢO - Dinh Dưỡng - 301 NGUYỄN HOÀNG",
+        "Address": "301 Nguyễn Hoàng, P. Bình Hiên",
+        "District": "Quận Hải Châu",
+        "AvgRating": "_._",
+        "DeliveryUrl": "https://shopeefood.vn/da-nang/ngu-coc-nhu-thao-dinh-duong-301-nguyen-hoang"
+    },
+    {
         "Id": 1000047623,
         "Name": "Enfood - Bếp Healthy - Đà Nẵng",
         "Address": "31 Hà Huy Giáp, P. Hoà Cường Nam",
         "District": "Quận Hải Châu",
         "AvgRating": "_._",
         "DeliveryUrl": "https://shopeefood.vn/da-nang/enfood-bep-healthy-da-nang.ukbjcj"
+    },
+    {
+        "Id": 1000077609,
+        "Name": "Roots Plant -  Based Cafe & Đồ Ăn Thuần Chay - 26-27 Trần Bạch Đằng",
+        "Address": "Lô 26-27 Trần Bạch Đằng, P. Mỹ An",
+        "District": "Quận Ngũ Hành Sơn",
+        "AvgRating": "_._",
+        "DeliveryUrl": "https://shopeefood.vn/da-nang/roots-plant-based-cafe-do-an-thuan-chay-26-27-tran-bach-dang"
+    },
+    {
+        "Id": 1000068564,
+        "Name": "Shamballa Vegetarian, Restaurant & Greenhouse - Nhà Hàng Chay - 277 Trần Hưng Đạo ",
+        "Address": "277 Trần Hưng Đạo, P. An Hải Bắc",
+        "District": "Quận Sơn Trà",
+        "AvgRating": "_._",
+        "DeliveryUrl": "https://shopeefood.vn/da-nang/shamballa-vegetarian-restaurant-greenhouse-nha-hang-chay-277-tran-hung-dao"
+    },
+    {
+        "Id": 1000075508,
+        "Name": "Bếp Thu Veggie - Mít Trộn Rong Biển - Hoa Lư",
+        "Address": "100 Hoa Lư, P. Nại Hiên Đông",
+        "District": "Quận Sơn Trà",
+        "AvgRating": "_._",
+        "DeliveryUrl": "https://shopeefood.vn/da-nang/bep-thu-veggie-mit-tron-rong-bien-hoa-lu"
+    },
+    {
+        "Id": 1000077048,
+        "Name": "Khai Tâm - Quán Chay - 352 Phan Châu Trinh",
+        "Address": "352 Phan Châu Trinh, P. Bình Thuận",
+        "District": "Quận Hải Châu",
+        "AvgRating": "_._",
+        "DeliveryUrl": "https://shopeefood.vn/da-nang/khai-tam-quan-chay-352-phan-chau-trinh"
+    },
+    {
+        "Id": 1000081654,
+        "Name": "Grazie's Kitchen - Vegan Cafe & Cake Quán Chay - An Thượng 3",
+        "Address": "12 An Thượng 3",
+        "District": "Quận Ngũ Hành Sơn",
+        "AvgRating": "_._",
+        "DeliveryUrl": "https://shopeefood.vn/da-nang/grazie-s-kitchen-vegan-cafe-cake-quan-chay-an-thuong-3.cmfoa1"
+    },
+    {
+        "Id": 1177015,
+        "Name": "Quán Chay Ông Cá - Shop Online",
+        "Address": "96/36 Điện Biên Phủ, P. Chính Gián",
+        "District": "Quận Thanh Khê",
+        "AvgRating": "_._",
+        "DeliveryUrl": "https://shopeefood.vn/da-nang/chao-sup-dinh-duong-ba-xi-322-nguyen-hoang.xmmqs8"
+    },
+    {
+        "Id": 1000058593,
+        "Name": "Quán Chay Tâm Duyên - Cơm Chay - Trương Định",
+        "Address": "38 Trương Định, P. Mân Thái",
+        "District": "Quận Sơn Trà",
+        "AvgRating": "_._",
+        "DeliveryUrl": "https://shopeefood.vn/da-nang/quan-chay-tam-duyen-com-chay-truong-dinh"
+    },
+    {
+        "Id": 1000069081,
+        "Name": "Vô Lượng Thọ - Ẩm Thực Chay - 23 Nguyễn Hồng Ánh",
+        "Address": "23 - 25 Nguyễn Hồng Ánh, X. Hòa Châu",
+        "District": "Huyện Hòa Vang",
+        "AvgRating": "_._",
+        "DeliveryUrl": "https://shopeefood.vn/da-nang/vo-luong-tho-am-thuc-chay-23-nguyen-hong-anh"
     },
     {
         "Id": 1217835,
