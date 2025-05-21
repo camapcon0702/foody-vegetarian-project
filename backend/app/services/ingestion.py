@@ -6,8 +6,6 @@ from app.models.restaurant import Restaurant
 from app.models.dish import Dish
 from sqlalchemy import select
 from decimal import Decimal, ROUND_HALF_UP
-from tqdm import tqdm
-from sqlalchemy import text
 
 async def insert_restaurants_from_json():
     BASE_DIR = os.path.abspath(os.path.join(os.path.dirname(__file__), '..', '..', '..'))
@@ -48,13 +46,24 @@ async def insert_dishes_from_json():
     
     async with AsyncSessionLocal() as session:
         async with session.begin():
-            await session.execute(text("TRUNCATE TABLE Dishes"))
-            
-            for restaurant_data in tqdm(data, desc="Inserting Dishes"):
+            for restaurant_data in data:
                 restaurant_id = restaurant_data["restaurant_id"]
+                stmt = select(Restaurant.IdRestaurant).where(Restaurant.IdRestaurant == restaurant_id)
+                result = await session.execute(stmt)
+                exists_id = result.scalar()
+                
+                if not exists_id:
+                    continue  
+                
                 for dish in restaurant_data["menu"]:
-                    try:
-                        dish_obj = Dish(
+                    stmt = select(Dish.IdDish).where(Dish.IdDish == dish["IdDish"])
+                    result = await session.execute(stmt)
+                    exists_dish = result.scalar()
+                        
+                    if exists_dish:
+                        continue
+                            
+                    dish_obj = Dish(
                             IdDish=dish["IdDish"],
                             IdRestaurant=restaurant_id,
                             name=dish["name"],
@@ -62,13 +71,7 @@ async def insert_dishes_from_json():
                             price=Decimal(str(dish["price"])).quantize(
                                 Decimal("0.1"), rounding=ROUND_HALF_UP
                             ),
-                            description=dish["description"] if dish["description"] else None
+                            description=dish["description"]
                         )
-                        session.add(dish_obj)
-                        
-                    except KeyError as e:
-                        print(f"Missing key {e} in dish data: {dish}")
-                    except Exception as e:
-                        print(f"Error processing dish {dish.get('name')}: {str(e)}")
-            
-            await session.commit()
+                    session.add(dish_obj)    
+        await session.commit()
