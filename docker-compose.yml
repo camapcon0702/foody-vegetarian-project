@@ -76,36 +76,6 @@ services:
       volumes:
       - ./frontend/dist:/usr/share/nginx/html
       - ./nginx/conf/nginx.conf:/etc/nginx/nginx.conf:ro
-  # frontend-builder:
-  #   build:
-  #     context: ./frontend
-  #     dockerfile: Dockerfile
-  #   volumes:
-  #     - frontend_build:/app/dist
-
-  # mysql:
-  #   container_name: db
-  #   image: mysql:8.0
-  #   ports:
-  #     - 3308:3306
-  #   environment:
-  #     - MYSQL_ROOT_PASSWORD=root
-  #   volumes:
-  #     - ./init_db:/docker-entrypoint-initdb.d/:ro
-  #     - ./mysql_data/:/var/lib/mysql
-
-  # nginx:
-  #     build:
-  #       context: ./nginx
-  #       dockerfile: Dockerfile
-  #     ports:
-  #       - "8002:80"
-  #     depends_on:
-  #       - frontend-builder
-  #     volumes:
-  #       - frontend_build:/usr/share/nginx/html
-  #     networks:
-  #       - foody_net
 
 volumes:
   db_data:
