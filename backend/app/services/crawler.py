@@ -3,7 +3,7 @@ import json
 import time
 import os
 
-BASE_DIR = os.path.abspath(os.path.join(os.path.dirname(__file__), '..', '..', '..'))
+BASE_DIR = os.path.abspath(os.path.join(os.path.dirname(__file__), '..', '..'))
 
 def crawling_all_restaurants():
     all_items = []
@@ -95,7 +95,7 @@ def crawling_all_restaurants():
             break
 
         page += 1
-        time.sleep(3)
+        time.sleep(1)
 
     output_path = os.path.join(BASE_DIR, 'data', 'restaurants.json')
 
@@ -164,12 +164,13 @@ def crawling_all_dishes():
                     "restaurant_id": restaurant_id,
                     "menu": menu
                 })
+                print(f"Quán ăn {i}")
             else:
                 print(f"[{i + 1}/{len(restaurants)}] Failed to fetch for restaurant ID {restaurant_id}: {response.status_code}")
         except Exception as e:
             print(f"[{i + 1}/{len(restaurants)}] Error: {e}")
 
-        time.sleep(0.5)
+        time.sleep(0.1)
     
     output_path = os.path.join(BASE_DIR, 'data', 'menus.json')
 

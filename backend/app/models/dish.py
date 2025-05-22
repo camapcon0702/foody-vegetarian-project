@@ -1,4 +1,4 @@
-from sqlalchemy import Column, Integer, String, DECIMAL, ForeignKey
+from sqlalchemy import Column, Integer, String, DECIMAL, ForeignKey, Text
 from app.core.database import Base
 from sqlalchemy.orm import relationship
 
@@ -10,4 +10,4 @@ class Dish(Base):
     name = Column(String(255), nullable=False)
     image = Column(String(255), nullable=False)
     price = Column(DECIMAL(10, 2), nullable=False)
-    description = Column(String(255))
+    description = Column(Text)
